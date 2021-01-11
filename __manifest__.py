@@ -26,10 +26,12 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/group_user.xml',
+        'security/ir.model.access.csv',
         'browser/menu.xml',
         'browser/home.xml',
         'browser/footer.xml',
+        'views/banner_view.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

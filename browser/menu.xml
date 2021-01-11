@@ -10,8 +10,8 @@
              <xpath expr="//script[last()]" position="inside">
                  <script type="text/javascript" src="/website_dell/static/src/js/user_custom_js.js"/>
                 <script src="/website_dell/static/src/js/sdk.js" async="" crossorigin="anonymous"></script>
-                <script type="text/javascript" src="/website_dell/static/src/js/sdk(1).js"/>
-                <script type="text/javascript" async="" src="/website_dell/static/src/js/fb.js"></script>
+<!--                <script type="text/javascript" src="/website_dell/static/src/js/sdk(1).js"/>-->
+<!--                <script type="text/javascript" async="" src="/website_dell/static/src/js/fb.js"></script>-->
 <!--                <script type="text/javascript" async="" src="/website_dell/static/src/js/bottom-fd60bf.js"></script>-->
              </xpath>
         </template>
@@ -22,8 +22,8 @@
                         <div class="mobile_logo">
                             <div class="container">
                                 <div class="" id="_mobile_logo">
-                                    <a href="https://ets-demos.com/theme/digital17/">
-                                        <img class="logo img-responsive" src="https://ets-demos.com/theme/digital17/modules/ybc_themeconfig/images/logo/blue.png" alt="Digital 17"/>
+                                    <a href="#">
+                                        <img class="logo img-responsive" src="#" alt="Digital 17"/>
                                     </a>
                                 </div>
                                 <div class="_desktop_contact_link">
@@ -46,10 +46,8 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="hidden-sm-down" id="_desktop_logo">
-                                        <a href="https://ets-demos.com/theme/digital17/">
-<!--                                            <span t-field="website.logo" t-attf-class="logo img-responsive" t-options="{'widget': 'image'}" role="img" t-att-aria-label="'Logo of %s' % website.name" t-att-title="website.name"/>-->
+                                        <a href="#">
                                             <img class="logo img-responsive" t-attf-src="data:image/*;base64,{{website.logo}}" alt="Digital 17" style="width:191px; height: 49px"/>
-<!--                                            <img class="logo img-responsive" src="https://ets-demos.com/theme/digital17/modules/ybc_themeconfig/images/logo/blue.png" alt="Digital 17"/>-->
                                         </a>
                                     </div>
                                     <ul class="ybc-widget-ybc-custom-4">
@@ -136,7 +134,7 @@
                                                                     </li>
                                                                      <t t-foreach="cates" t-as="cate">
                                                                         <li class="item_lv1 mm_menus_li television mm_sub_align_full mm_has_sub">
-                                                                        <a href="https://ets-demos.com/theme/digital17/en/3-television">
+                                                                        <a href="#">
                                                                             <i class="fa fa-television"
                                                                                aria-hidden="true"></i>
                                                                             <span class="item_content"><t t-esc="cate.name"/></span>
@@ -153,7 +151,7 @@
                                                                                             <div class="ets_mm_block_content">
                                                                                                 <ul class="ets_mm_categories">
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/7-blouses">
+                                                                                                        <a href="#">
                                                                                                             Blouses
                                                                                                         </a>
                                                                                                     </li>
@@ -174,7 +172,7 @@
                                                                                             <div class="ets_mm_block_content">
                                                                                                 <ul class="ets_mm_categories">
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/7-blouses">
+                                                                                                        <a href="#">
                                                                                                             Blouses
                                                                                                         </a>
                                                                                                     </li>
@@ -195,7 +193,7 @@
                                                                                             <div class="ets_mm_block_content">
                                                                                                 <ul class="ets_mm_categories">
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/7-blouses">
+                                                                                                        <a href="#">
                                                                                                             Blouses
                                                                                                         </a>
                                                                                                     </li>
@@ -213,14 +211,14 @@
 
                                                                                         <div class="ets_mm_block mm_block_type_image mm_hide_title">
                                                                                             <h4>
-                                                                                                <a href="https://ets-demos.com/theme/digital17/en/#">
+                                                                                                <a href="#">
                                                                                                     Lorem
                                                                                                     ipsum
                                                                                                 </a>
                                                                                             </h4>
                                                                                             <div class="ets_mm_block_content">
-                                                                                                <a href="https://ets-demos.com/theme/digital17/en/#">
-                                                                                                    <img src="https://ets-demos.com/theme/digital17/45-home_default/television.jpg" alt="Lorem ipsum"/>
+                                                                                                <a href="#">
+                                                                                                    <img src="" alt="Lorem ipsum"/>
                                                                                                 </a>
                                                                                             </div>
                                                                                         </div>
@@ -233,7 +231,7 @@
                                                                     </li>
                                                                      </t>
                                                                     <li class="item_lv1 mm_menus_li sale_bubble laptop mm_sub_align_full mm_has_sub">
-                                                                        <a href="https://ets-demos.com/theme/digital17/en/#">
+                                                                        <a href="#">
                                                                             <i class="fa fa-laptop"
                                                                                aria-hidden="true"></i>
                                                                             <span
@@ -256,29 +254,29 @@
                                                                                             <div class="ets_mm_block_content">
                                                                                                 <ul class="ets_mm_categories">
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/7-blouses">
+                                                                                                        <a href="#">
                                                                                                             Blouses
                                                                                                         </a>
                                                                                                     </li>
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/9-casual-dresses">
+                                                                                                        <a href="#">
                                                                                                             Casual
                                                                                                             Dresses
                                                                                                         </a>
                                                                                                     </li>
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/10-evening-dresses">
+                                                                                                        <a href="#">
                                                                                                             Evening
                                                                                                             Dresses
                                                                                                         </a>
                                                                                                     </li>
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/5-tshirts">
+                                                                                                        <a href="#">
                                                                                                             T-shirts
                                                                                                         </a>
                                                                                                     </li>
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/6-top">
+                                                                                                        <a href="#">
                                                                                                             Tops
                                                                                                         </a>
                                                                                                     </li>
@@ -304,11 +302,11 @@
                                                                                                         data-id-product-attribute="1"
                                                                                                         itemscope="">
                                                                                                     <div class="thumbnail-container">
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/1-1-faded-short-sleeves-tshirt.html#/1-size-s/13-color-orange"
+                                                                                                        <a href="#"
                                                                                                            class="thumbnail product-thumbnail">
-                                                                                                            <img src="https://ets-demos.com/theme/digital17/45-home_default/faded-short-sleeves-tshirt.jpg" alt="" data-full-size-image-url="https://ets-demos.com/theme/digital17/38-large_default/faded-short-sleeves-tshirt.jpg"/>
+                                                                                                            <img src="#" alt="" data-full-size-image-url="#"/>
                                                                                                             <img class="fade replace-2x img-responsive ybc_img_hover"
-                                                                                                                    src="https://ets-demos.com/theme/digital17/45-home_default/faded-short-sleeves-tshirt(1).jpg"
+                                                                                                                    src="#"
                                                                                                                     alt="Faded Short Sleeves T-shirt"
                                                                                                                     itemprop="image"
                                                                                                                     title="Faded Short Sleeves T-shirt"/>
@@ -318,7 +316,7 @@
 
                                                                                                             <h3 class="h3 product-title"
                                                                                                                 itemprop="name">
-                                                                                                                <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/1-1-faded-short-sleeves-tshirt.html#/1-size-s/13-color-orange">
+                                                                                                                <a href="#">
                                                                                                                     Faded
                                                                                                                     Short
                                                                                                                     Sleeves
@@ -358,7 +356,7 @@
                                                                                                         </ul>
 
                                                                                                         <div class="highlighted-informations hidden-sm-down">
-                                                                                                            <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                                                            <a href="#"
                                                                                                                class="quick-view"
                                                                                                                data-link-action="quickview">
                                                                                                                 <i class="material-icons search">
@@ -369,7 +367,7 @@
                                                                                                             </a>
 
                                                                                                             <div class="variant-links">
-                                                                                                                <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/1-1-faded-short-sleeves-tshirt.html#/1-size-s/13-color-orange"
+                                                                                                                <a href="#"
                                                                                                                    class="color"
                                                                                                                    title="Orange"
                                                                                                                    style="background-color: #F39C11">
@@ -378,7 +376,7 @@
                                                                                                                         Orange
                                                                                                                     </span>
                                                                                                                 </a>
-                                                                                                                <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/1-2-faded-short-sleeves-tshirt.html#/1-size-s/14-color-blue"
+                                                                                                                <a href="#"
                                                                                                                    class="color"
                                                                                                                    title="Blue"
                                                                                                                    style="background-color: #5D9CEC">
@@ -412,13 +410,13 @@
                                                                                                         itemscope="">
                                                                                                     <div class="thumbnail-container">
 
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/2-7-blouse.html#/1-size-s/11-color-black"
+                                                                                                        <a href="#"
                                                                                                            class="thumbnail product-thumbnail">
-                                                                                                            <img src="https://ets-demos.com/theme/digital17/45-home_default/blouse.jpg"
+                                                                                                            <img src="#"
                                                                                                                  alt=""
-                                                                                                                 data-full-size-image-url="https://ets-demos.com/theme/digital17/43-large_default/blouse.jpg"/>
+                                                                                                                 data-full-size-image-url="#"/>
                                                                                                             <img class="fade replace-2x img-responsive ybc_img_hover"
-                                                                                                                    src="https://ets-demos.com/theme/digital17/45-home_default/blouse(1).jpg"
+                                                                                                                    src="#"
                                                                                                                     alt="Blouse"
                                                                                                                     itemprop="image"
                                                                                                                     title="Blouse"/>
@@ -429,7 +427,7 @@
                                                                                                             <h3 class="h3 product-title"
                                                                                                                 itemprop="name">
                                                                                                                 <a
-                                                                                                                        href="https://ets-demos.com/theme/digital17/en/sony-bravia/2-7-blouse.html#/1-size-s/11-color-black">
+                                                                                                                        href="#">
                                                                                                                     Blouse
                                                                                                                 </a>
                                                                                                             </h3>
@@ -472,7 +470,7 @@
                                                                                                         </ul>
 
                                                                                                         <div class="highlighted-informations hidden-sm-down">
-                                                                                                            <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                                                            <a href="#"
                                                                                                                class="quick-view"
                                                                                                                data-link-action="quickview">
                                                                                                                 <i class="material-icons search">
@@ -483,7 +481,7 @@
                                                                                                             </a>
 
                                                                                                             <div class="variant-links">
-                                                                                                                <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/2-8-blouse.html#/1-size-s/8-color-white"
+                                                                                                                <a href="#"
                                                                                                                    class="color"
                                                                                                                    title="White"
                                                                                                                    style="background-color: #ffffff">
@@ -492,7 +490,7 @@
                                                                                                                         White
                                                                                                                     </span>
                                                                                                                 </a>
-                                                                                                                <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/2-7-blouse.html#/1-size-s/11-color-black"
+                                                                                                                <a href="#"
                                                                                                                    class="color"
                                                                                                                    title="Black"
                                                                                                                    style="background-color: #434A54">
@@ -531,13 +529,13 @@
                                                                                                         itemscope="">
                                                                                                     <div class="thumbnail-container">
 
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/3-13-printed-dress.html#/1-size-s/13-color-orange"
+                                                                                                        <a href=""
                                                                                                            class="thumbnail product-thumbnail">
-                                                                                                            <img src="https://ets-demos.com/theme/digital17/45-home_default/printed-dress.jpg"
+                                                                                                            <img src=""
                                                                                                                  alt=""
-                                                                                                                 data-full-size-image-url="https://ets-demos.com/theme/digital17/45-large_default/printed-dress.jpg"/>
+                                                                                                                 data-full-size-image-url=""/>
                                                                                                             <img class="fade replace-2x img-responsive ybc_img_hover"
-                                                                                                                    src="https://ets-demos.com/theme/digital17/45-home_default/printed-dress(1).jpg"
+                                                                                                                    src=""
                                                                                                                     alt="Printed Dress"
                                                                                                                     itemprop="image"
                                                                                                                     title="Printed Dress"/>
@@ -548,7 +546,7 @@
                                                                                                             <h3 class="h3 product-title"
                                                                                                                 itemprop="name">
                                                                                                                 <a
-                                                                                                                        href="https://ets-demos.com/theme/digital17/en/sony-bravia/3-13-printed-dress.html#/1-size-s/13-color-orange">
+                                                                                                                        href="">
                                                                                                                     Printed
                                                                                                                     Dress
                                                                                                                 </a>
@@ -592,7 +590,7 @@
                                                                                                         </ul>
 
                                                                                                         <div class="highlighted-informations hidden-sm-down">
-                                                                                                            <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                                                            <a href="#"
                                                                                                                class="quick-view"
                                                                                                                data-link-action="quickview">
                                                                                                                 <i class="material-icons search">
@@ -603,7 +601,7 @@
                                                                                                             </a>
 
                                                                                                             <div class="variant-links">
-                                                                                                                <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/3-13-printed-dress.html#/1-size-s/13-color-orange"
+                                                                                                                <a href="#"
                                                                                                                    class="color"
                                                                                                                    title="Orange"
                                                                                                                    style="background-color: #F39C11">
@@ -638,13 +636,13 @@
                                                                                                         itemscope="">
                                                                                                     <div class="thumbnail-container">
 
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/4-16-printed-dress.html#/1-size-s/7-color-beige"
+                                                                                                        <a href="#"
                                                                                                            class="thumbnail product-thumbnail">
-                                                                                                            <img src="https://ets-demos.com/theme/digital17/45-home_default/printed-dress(2).jpg"
+                                                                                                            <img src=""
                                                                                                                  alt=""
-                                                                                                                 data-full-size-image-url="https://ets-demos.com/theme/digital17/51-large_default/printed-dress.jpg"/>
+                                                                                                                 data-full-size-image-url=""/>
                                                                                                             <img class="fade replace-2x img-responsive ybc_img_hover"
-                                                                                                                    src="https://ets-demos.com/theme/digital17/45-home_default/printed-dress(3).jpg"
+                                                                                                                    src=""
                                                                                                                     alt="Printed Dress"
                                                                                                                     itemprop="image"
                                                                                                                     title="Printed Dress"/>
@@ -655,7 +653,7 @@
                                                                                                             <h3 class="h3 product-title"
                                                                                                                 itemprop="name">
                                                                                                                 <a
-                                                                                                                        href="https://ets-demos.com/theme/digital17/en/sony-bravia/4-16-printed-dress.html#/1-size-s/7-color-beige">
+                                                                                                                        href="#">
                                                                                                                     Printed
                                                                                                                     Dress
                                                                                                                 </a>
@@ -687,7 +685,7 @@
                                                                                                         </ul>
 
                                                                                                         <div class="highlighted-informations hidden-sm-down">
-                                                                                                            <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                                                            <a href="#"
                                                                                                                class="quick-view"
                                                                                                                data-link-action="quickview">
                                                                                                                 <i class="material-icons search">
@@ -698,7 +696,7 @@
                                                                                                             </a>
 
                                                                                                             <div class="variant-links">
-                                                                                                                <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/4-16-printed-dress.html#/1-size-s/7-color-beige"
+                                                                                                                <a href="#"
                                                                                                                    class="color"
                                                                                                                    title="Beige"
                                                                                                                    style="background-color: #f5f5dc">
@@ -707,7 +705,7 @@
                                                                                                                         Beige
                                                                                                                     </span>
                                                                                                                 </a>
-                                                                                                                <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/4-43-printed-dress.html#/1-size-s/24-color-pink"
+                                                                                                                <a href="#"
                                                                                                                    class="color"
                                                                                                                    title="Pink"
                                                                                                                    style="background-color: #FCCACD">
@@ -734,7 +732,7 @@
 
                                                                     </li>
                                                                     <li class="item_lv1 mm_menus_li new_bubble compute mm_sub_align_full mm_has_sub">
-                                                                        <a href="https://ets-demos.com/theme/digital17/en/#">
+                                                                        <a href="#">
                                                                             <i class="fa fa-desktop"
                                                                                aria-hidden="true"></i>
                                                                             <span
@@ -757,29 +755,29 @@
                                                                                             <div class="ets_mm_block_content">
                                                                                                 <ul class="ets_mm_categories">
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/7-blouses">
+                                                                                                        <a href="#">
                                                                                                             Blouses
                                                                                                         </a>
                                                                                                     </li>
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/9-casual-dresses">
+                                                                                                        <a href="#">
                                                                                                             Casual
                                                                                                             Dresses
                                                                                                         </a>
                                                                                                     </li>
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/10-evening-dresses">
+                                                                                                        <a href="#">
                                                                                                             Evening
                                                                                                             Dresses
                                                                                                         </a>
                                                                                                     </li>
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/5-tshirts">
+                                                                                                        <a href="#">
                                                                                                             T-shirts
                                                                                                         </a>
                                                                                                     </li>
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/6-top">
+                                                                                                        <a href="#">
                                                                                                             Tops
                                                                                                         </a>
                                                                                                     </li>
@@ -800,30 +798,8 @@
                                                                                             <div class="ets_mm_block_content">
                                                                                                 <ul class="ets_mm_categories">
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/7-blouses">
+                                                                                                        <a href="#">
                                                                                                             Blouses
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/9-casual-dresses">
-                                                                                                            Casual
-                                                                                                            Dresses
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/10-evening-dresses">
-                                                                                                            Evening
-                                                                                                            Dresses
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/5-tshirts">
-                                                                                                            T-shirts
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/6-top">
-                                                                                                            Tops
                                                                                                         </a>
                                                                                                     </li>
                                                                                                 </ul>
@@ -849,13 +825,13 @@
                                                                                                         itemscope="">
                                                                                                     <div class="thumbnail-container">
 
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/1-1-faded-short-sleeves-tshirt.html#/1-size-s/13-color-orange"
+                                                                                                        <a href="#"
                                                                                                            class="thumbnail product-thumbnail">
-                                                                                                            <img src="https://ets-demos.com/theme/digital17/45-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                                                            <img src=""
                                                                                                                  alt=""
-                                                                                                                 data-full-size-image-url="https://ets-demos.com/theme/digital17/38-large_default/faded-short-sleeves-tshirt.jpg"/>
+                                                                                                                 data-full-size-image-url=""/>
                                                                                                             <img class="fade replace-2x img-responsive ybc_img_hover"
-                                                                                                                    src="https://ets-demos.com/theme/digital17/45-home_default/faded-short-sleeves-tshirt(1).jpg"
+                                                                                                                    src=""
                                                                                                                     alt="Faded Short Sleeves T-shirt"
                                                                                                                     itemprop="image"
                                                                                                                     title="Faded Short Sleeves T-shirt"/>
@@ -865,8 +841,7 @@
 
                                                                                                             <h3 class="h3 product-title"
                                                                                                                 itemprop="name">
-                                                                                                                <a
-                                                                                                                        href="https://ets-demos.com/theme/digital17/en/sony-bravia/1-1-faded-short-sleeves-tshirt.html#/1-size-s/13-color-orange">
+                                                                                                                <a href="#">
                                                                                                                     Faded
                                                                                                                     Short
                                                                                                                     Sleeves
@@ -912,7 +887,7 @@
                                                                                                         </ul>
 
                                                                                                         <div class="highlighted-informations hidden-sm-down">
-                                                                                                            <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                                                            <a href="#"
                                                                                                                class="quick-view"
                                                                                                                data-link-action="quickview">
                                                                                                                 <i class="material-icons search">
@@ -923,7 +898,7 @@
                                                                                                             </a>
 
                                                                                                             <div class="variant-links">
-                                                                                                                <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/1-1-faded-short-sleeves-tshirt.html#/1-size-s/13-color-orange"
+                                                                                                                <a href=""
                                                                                                                    class="color"
                                                                                                                    title="Orange"
                                                                                                                    style="background-color: #F39C11">
@@ -932,7 +907,7 @@
                                                                                                                         Orange
                                                                                                                     </span>
                                                                                                                 </a>
-                                                                                                                <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/1-2-faded-short-sleeves-tshirt.html#/1-size-s/14-color-blue"
+                                                                                                                <a href="#"
                                                                                                                    class="color"
                                                                                                                    title="Blue"
                                                                                                                    style="background-color: #5D9CEC">
@@ -955,13 +930,13 @@
                                                                                                         itemscope="">
                                                                                                     <div class="thumbnail-container">
 
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/2-7-blouse.html#/1-size-s/11-color-black"
+                                                                                                        <a href="#"
                                                                                                            class="thumbnail product-thumbnail">
-                                                                                                            <img src="https://ets-demos.com/theme/digital17/45-home_default/blouse.jpg"
+                                                                                                            <img src=""
                                                                                                                  alt=""
-                                                                                                                 data-full-size-image-url="https://ets-demos.com/theme/digital17/43-large_default/blouse.jpg"/>
+                                                                                                                 data-full-size-image-url=""/>
                                                                                                             <img class="fade replace-2x img-responsive ybc_img_hover"
-                                                                                                                    src="https://ets-demos.com/theme/digital17/45-home_default/blouse(1).jpg"
+                                                                                                                    src=""
                                                                                                                     alt="Blouse"
                                                                                                                     itemprop="image"
                                                                                                                     title="Blouse"/>
@@ -972,7 +947,7 @@
                                                                                                             <h3 class="h3 product-title"
                                                                                                                 itemprop="name">
                                                                                                                 <a
-                                                                                                                        href="https://ets-demos.com/theme/digital17/en/sony-bravia/2-7-blouse.html#/1-size-s/11-color-black">
+                                                                                                                        href="">
                                                                                                                     Blouse
                                                                                                                 </a>
                                                                                                             </h3>
@@ -1015,7 +990,7 @@
                                                                                                         </ul>
 
                                                                                                         <div class="highlighted-informations hidden-sm-down">
-                                                                                                            <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                                                            <a href="#"
                                                                                                                class="quick-view"
                                                                                                                data-link-action="quickview">
                                                                                                                 <i class="material-icons search">
@@ -1026,7 +1001,7 @@
                                                                                                             </a>
 
                                                                                                             <div class="variant-links">
-                                                                                                                <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/2-8-blouse.html#/1-size-s/8-color-white"
+                                                                                                                <a href="#"
                                                                                                                    class="color"
                                                                                                                    title="White"
                                                                                                                    style="background-color: #ffffff">
@@ -1035,7 +1010,7 @@
                                                                                                                         White
                                                                                                                     </span>
                                                                                                                 </a>
-                                                                                                                <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/2-7-blouse.html#/1-size-s/11-color-black"
+                                                                                                                <a href="#"
                                                                                                                    class="color"
                                                                                                                    title="Black"
                                                                                                                    style="background-color: #434A54">
@@ -1066,7 +1041,7 @@
                                                                                         <div class="ets_mm_block mm_block_type_image mm_hide_title">
                                                                                             <h4>lorem</h4>
                                                                                             <div class="ets_mm_block_content">
-                                                                                                <img src="https://ets-demos.com/theme/digital17/45-home_default/ipad.jpg"
+                                                                                                <img src=""
                                                                                                      alt="lorem"/>
                                                                                             </div>
                                                                                         </div>
@@ -1093,7 +1068,7 @@
 
                                                                     </li>
                                                                     <li class="item_lv1 mm_menus_li phone mm_sub_align_full ">
-                                                                        <a href="https://ets-demos.com/theme/digital17/en/17-phones">
+                                                                        <a href="#">
                                                                             <i class="fa fa-mobile fa-3"
                                                                                aria-hidden="true"></i>
                                                                             <span class="item_content">Phones</span>
@@ -1101,7 +1076,7 @@
 
                                                                     </li>
                                                                      <li class="item_lv1 mm_menus_li about_contact not_show mm_sub_align_left mm_has_sub">
-                                                                        <a href="https://ets-demos.com/theme/digital17/en/contact-us">
+                                                                        <a href="#">
                                                                             <i class="fa fa-envelope-o"
                                                                                aria-hidden="true"></i>
                                                                             <span class="item_content">Contact</span>
@@ -1118,21 +1093,9 @@
                                                                                             <div class="ets_mm_block_content">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/contact-us?YBC_TC_CONTACT_FORM_LAYOUT=contact_layout1">
+                                                                                                        <a href="#">
                                                                                                             Contact
                                                                                                             page 1
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/contact-us?YBC_TC_CONTACT_FORM_LAYOUT=contact_layout2">
-                                                                                                            Contact
-                                                                                                            page 2
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/contact-us?YBC_TC_CONTACT_FORM_LAYOUT=contact_layout3">
-                                                                                                            Contact
-                                                                                                            page 3
                                                                                                         </a>
                                                                                                     </li>
                                                                                                 </ul>
@@ -1146,7 +1109,7 @@
 
                                                                     </li>
                                                                    <li class="item_lv1 mm_menus_li about_contact not_show mm_sub_align_full mm_has_sub">
-                                                                        <a href="https://ets-demos.com/theme/digital17/en/blog">
+                                                                        <a href="#">
                                                                             <i class="fa fa-pencil-square-o"
                                                                                aria-hidden="true"></i>
                                                                             <span class="item_content">Blog</span>
@@ -1163,26 +1126,8 @@
                                                                                             <div class="ets_mm_block_content">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/blog">
+                                                                                                        <a href="#">
                                                                                                             Main
-                                                                                                            page
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/blog/post/1-sample-post1.html">
-                                                                                                            Post
-                                                                                                            page
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/blog/category/1-sample-category.html">
-                                                                                                            Category
-                                                                                                            page
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="https://ets-demos.com/theme/digital17/blog/author/1-quang-ets">
-                                                                                                            Author
                                                                                                             page
                                                                                                         </a>
                                                                                                     </li>
@@ -1197,7 +1142,7 @@
 
                                                                     </li>
                                                                     <li class="item_lv1 mm_menus_li view_less_menu not_show mm_sub_align_full ">
-                                                                        <a href="https://ets-demos.com/theme/digital17/en/#">
+                                                                        <a href="#">
                                                                             <span class="item_content">View less
                                                                                 categories
                                                                             </span>
@@ -1286,7 +1231,7 @@
                                                     <div class="blockcart cart-preview inactive"
                                                          data-refresh-url="//ets-demos.com/theme/digital17/en/module/ps_shoppingcart/ajax">
                                                         <a class="show_qties" rel="nofollow"
-                                                           href="https://ets-demos.com/theme/digital17/en/cart?action=show">
+                                                           href="#">
                                                             <span class="hidden-sm-down checkout_title">Shopping Cart
                                                             </span>
                                                             <span class="checkout_total">$0.00</span>
@@ -1322,7 +1267,7 @@
                                                             <div class="cart-wishlist-action">
 
                                                                 <a class="cart-wishlist-checkout"
-                                                                   href="https://ets-demos.com/theme/digital17/en/order">
+                                                                   href="#">
                                                                     Check
                                                                     Out
                                                                 </a>

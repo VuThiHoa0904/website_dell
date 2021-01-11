@@ -1,2 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_website_dell_website_dell,website_dell.website_dell,model_website_dell_website_dell,base.group_user,1,1,1,1
+access_website_dell_banner_admin,website_dell_banner_admin,model_website_dell_banner,website_dell_group_admin,1,1,1,1
+access_website_dell_banner_manager,website_dell_banner_manager,model_website_dell_banner,website_dell_group_manager,1,1,1,0
+access_website_dell_banner_employee,website_dell_banner_employee,model_website_dell_banner,website_dell_group_employee,1,1,1,0

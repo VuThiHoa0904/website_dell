@@ -15,3 +15,23 @@ class Website_dell(http.Controller):
         return request.render("website_dell.top_menu_inherit", {
             'cates': cates,
         })
+
+    @http.route('/', type='http', auth="public", website=True)
+    def index(self, **kw):
+        super(Website, self).index(**kw)
+        bans = http.request.env['website_dell.banner'].sudo().search([])
+        print("============================")
+        print(bans)
+        return http.request.render('website_dell.home_inherit',
+        {
+            'bans': bans,
+        })
+
+    # @http.route(['/'], type='http', auth="public", website=True)
+    # def dataHome(self, **kwargs):
+    #     bans = http.request.env['website_dell.banner'].sudo().search([])
+    #     print("============================")
+    #     print(bans)
+    #     return request.render("website.homepage", {
+    #         'bans': bans,
+    #     })

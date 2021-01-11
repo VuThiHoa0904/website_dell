@@ -604,12 +604,7 @@
                             <div class="payment_footer">
                                 <span class="hidden-xs">Our payment methods:</span>
                                 <div class="payment_item">
-                                    <img src="https://ets-demos.com/theme/digital17/38-large_default/faded-short-sleeves-tshirt(1).jpg" alt="Payment methods"
-                                         title="Payment methods"/>
-                                </div>
-                                <div class="payment_item">
-                                    <img src="https://ets-demos.com/theme/digital17/38-large_default/faded-short-sleeves-tshirt(1).jpg"
-                                         alt="Payment methods"
+                                    <img src="/website_dell/static/src/img/paymentlogos1.png" alt="Payment methods"
                                          title="Payment methods"/>
                                 </div>
                             </div>
@@ -719,7 +714,7 @@
                                 </div>
                                 <div class="col-sm-6 mobie_none">
                                     <div class="before_right">
-                                        <img src="https://ets-demos.com/theme/digital17/38-large_default/faded-short-sleeves-tshirt(1).jpg"
+                                        <img src=""
                                              alt="Ssl image"
                                              title="ssl image"/>
                                         <div class="content_ssl">

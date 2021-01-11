@@ -168,84 +168,34 @@
                                         <div class="owl-stage-outer">
                                            <div class="owl-stage"
                                               style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1600px;">
-                                              <div class="owl-item active" style="width: 370px; margin-right: 30px;">
-                                                 <div class="ybc-widget-item wow zoomIn"
-                                                    style="visibility: visible; animation-name: zoomIn;">
-                                                    <div class="ybc-widget-item-content ">
-                                                       <div class="wd-content-display-home">
-                                                          <span class="sub_title main-bg4">-15% OFF</span>
-                                                          <img src="https://ets-demos.com/theme/digital17/modules/ybc_widget/images/widget/buddy-cameras-.jpg"
-                                                             alt="Wifi cameras"/>
-                                                          <div class="des_content">
-                                                             <h4 class="ybc-widget-title">
-                                                                Wifi cameras
-                                                             </h4>
-                                                             <div class="ybc-widget-description">
-                                                                <p>Safety
-                                                                   measure for <br/>your house
-                                                                </p>
-                                                                <p>
-                                                                   <a href="https://ets-demos.com/theme/digital17/en/#"
-                                                                      class="bt_color">Purchase Now</a>
-                                                                </p>
-                                                             </div>
-                                                          </div>
-                                                       </div>
-                                                    </div>
-                                                 </div>
-                                              </div>
-                                               <div class="owl-item " style="width: 370px; margin-right: 30px;">
-                                                 <div class="ybc-widget-item wow zoomIn"
-                                                    style="visibility: visible; animation-name: zoomIn;">
-                                                    <div class="ybc-widget-item-content ">
-                                                       <div class="wd-content-display-home">
-                                                          <span class="sub_title main-bg4">-15% OFF</span>
-                                                          <img src="https://ets-demos.com/theme/digital17/modules/ybc_widget/images/widget/buddy-cameras-.jpg"
-                                                             alt="Wifi cameras"/>
-                                                          <div class="des_content">
-                                                             <h4 class="ybc-widget-title">
-                                                                Wifi cameras
-                                                             </h4>
-                                                             <div class="ybc-widget-description">
-                                                                <p>Safety
-                                                                   measure for <br/>your house
-                                                                </p>
-                                                                <p>
-                                                                   <a href="https://ets-demos.com/theme/digital17/en/#"
-                                                                      class="bt_color">Purchase Now</a>
-                                                                </p>
-                                                             </div>
-                                                          </div>
-                                                       </div>
-                                                    </div>
-                                                 </div>
-                                              </div>
-                                               <div class="owl-item " style="width: 370px; margin-right: 30px;">
-                                                 <div class="ybc-widget-item wow zoomIn"
-                                                    style="visibility: visible; animation-name: zoomIn;">
-                                                    <div class="ybc-widget-item-content ">
-                                                       <div class="wd-content-display-home">
-                                                          <span class="sub_title main-bg4">-15% OFF</span>
-                                                          <img src="https://ets-demos.com/theme/digital17/modules/ybc_widget/images/widget/buddy-cameras-.jpg"
-                                                             alt="Wifi cameras"/>
-                                                          <div class="des_content">
-                                                             <h4 class="ybc-widget-title">
-                                                                Wifi cameras
-                                                             </h4>
-                                                             <div class="ybc-widget-description">
-                                                                <p>Safety
-                                                                   measure for <br/>your house
-                                                                </p>
-                                                                <p>
-                                                                   <a href="https://ets-demos.com/theme/digital17/en/#"
-                                                                      class="bt_color">Purchase Now</a>
-                                                                </p>
-                                                             </div>
-                                                          </div>
-                                                       </div>
-                                                    </div>
-                                                 </div>
-                                              </div>
+                                               <t t-foreach="bans" t-as="ban">
+                                                  <div class="owl-item active" style="width: 370px; margin-right: 30px;">
+                                                     <div class="ybc-widget-item wow zoomIn"
+                                                        style="visibility: visible; animation-name: zoomIn;">
+                                                        <div class="ybc-widget-item-content ">
+                                                           <div class="wd-content-display-home">
+    <!--                                                          <span class="sub_title main-bg4">-15% OFF</span>-->
+                                                              <img t-attf-src="data:image/*;base64,{{ban.image}}"
+                                                                 alt=""/>
+    <!--                                                          <div class="des_content">-->
+    <!--                                                             <h4 class="ybc-widget-title">-->
+    <!--                                                                Wifi cameras-->
+    <!--                                                             </h4>-->
+    <!--                                                             <div class="ybc-widget-description">-->
+    <!--                                                                <p>Safety-->
+    <!--                                                                   measure for <br/>your house-->
+    <!--                                                                </p>-->
+    <!--                                                                <p>-->
+    <!--                                                                   <a href="#"-->
+    <!--                                                                      class="bt_color">Purchase Now</a>-->
+    <!--                                                                </p>-->
+    <!--                                                             </div>-->
+    <!--                                                          </div>-->
+                                                           </div>
+                                                        </div>
+                                                     </div>
+                                                  </div>
+                                               </t>
                                            </div>
                                         </div>
 <!--                                        <div class="owl-nav disabled">-->
