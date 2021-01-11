@@ -20,12 +20,16 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base',
+                'website',
+                'website_sale'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'browser/menu.xml',
+        'browser/home.xml',
+        'browser/footer.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

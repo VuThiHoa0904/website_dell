@@ -1,0 +1,767 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+        <template id="footer_inherit" inherit_id="website.footer_custom">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div class="footer-container">
+                    <div class="footer_top_before">
+                        <div class="container">
+                            <div class="footer_bg">
+                                <div class="row">
+                                    <div class="col-md-9 col-xs-12">
+                                        <h3 class="h3 title-footer-block hidden-sm-down">Showrooms system</h3>
+                                        <div class="title clearfix hidden-md-up" data-target="#footer_show_room"
+                                             data-toggle="collapse">
+                                            <span class="h3">Showrooms system</span>
+                                            <span class="pull-xs-right">
+                                                <span class="navbar-toggler collapse-icons">
+                                                    <i class="material-icons add">expand_more</i>
+                                                    <i class="material-icons remove">expand_less</i>
+                                                </span>
+                                            </span>
+                                        </div>
+                                        <div class="row">
+                                            <ul class="ybc-widget-ybc-footer-showroom" id="footer_show_room">
+
+                                                <li class="ybc-widget-item col-md-4">
+                                                    <div class="ybc-widget-item-content">
+                                                        <div class="ybc-widget-description-content">
+                                                            <h4 class="ybc-widget-title">Arizona</h4>
+                                                            <div class="ybc-widget-description">
+                                                                <p>Address: Puffin street 12345
+                                                                    Puffinville
+                                                                    <br/>
+                                                                    Phone: (123) 4567889
+                                                                    <br/>
+                                                                    Opening hours: 8:00 to
+                                                                    21:00 (all days)
+                                                                </p>
+                                                                <p>
+                                                                    <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                       class="bt_color">View on map
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="ybc-widget-item col-md-4">
+                                                    <div class="ybc-widget-item-content">
+                                                        <div class="ybc-widget-description-content">
+                                                            <h4 class="ybc-widget-title">California</h4>
+                                                            <div class="ybc-widget-description">
+                                                                <p>Address: Puffin street 12345
+                                                                    Puffinville
+                                                                    <br/>
+                                                                    Phone: (123) 4567889
+                                                                    <br/>
+                                                                    Opening hours: 8:00 to
+                                                                    21:00 (all days)
+                                                                </p>
+                                                                <p>
+                                                                    <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                       class="bt_color">View on map
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="ybc-widget-item col-md-4">
+                                                    <div class="ybc-widget-item-content">
+                                                        <div class="ybc-widget-description-content">
+                                                            <h4 class="ybc-widget-title">Michigan</h4>
+                                                            <div class="ybc-widget-description">
+                                                                <p>Address: Puffin street 12345
+                                                                    Puffinville
+                                                                    <br/>
+                                                                    Phone: (123) 4567889
+                                                                    <br/>
+                                                                    Opening hours: 8:00 to
+                                                                    21:00 (all days)
+                                                                </p>
+                                                                <p>
+                                                                    <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                       class="bt_color">View on map
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="ybc-widget-item col-md-4">
+                                                    <div class="ybc-widget-item-content">
+                                                        <div class="ybc-widget-description-content">
+                                                            <h4 class="ybc-widget-title">Oregon</h4>
+                                                            <div class="ybc-widget-description">
+                                                                <p>Address: Puffin street 12345
+                                                                    Puffinville
+                                                                    <br/>
+                                                                    Phone: (123) 4567889
+                                                                    <br/>
+                                                                    Opening hours: 8:00 to
+                                                                    21:00 (all days)
+                                                                </p>
+                                                                <p>
+                                                                    <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                       class="bt_color">View on map
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="ybc-widget-item col-md-4">
+                                                    <div class="ybc-widget-item-content">
+                                                        <div class="ybc-widget-description-content">
+                                                            <h4 class="ybc-widget-title">Texas</h4>
+                                                            <div class="ybc-widget-description">
+                                                                <p>Address: Puffin street 12345
+                                                                    Puffinville
+                                                                    <br/>
+                                                                    Phone: (123) 4567889
+                                                                    <br/>
+                                                                    Opening hours: 8:00 to
+                                                                    21:00 (all days)
+                                                                </p>
+                                                                <p>
+                                                                    <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                       class="bt_color">View on map
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="ybc-widget-item col-md-4">
+                                                    <div class="ybc-widget-item-content">
+                                                        <div class="ybc-widget-description-content">
+                                                            <h4 class="ybc-widget-title">Washington</h4>
+                                                            <div class="ybc-widget-description">
+                                                                <p>Address: Puffin street 12345
+                                                                    Puffinville
+                                                                    <br/>
+                                                                    Phone: (123) 4567889
+                                                                    <br/>
+                                                                    Opening hours: 8:00 to
+                                                                    21:00 (all days)
+                                                                </p>
+                                                                <p>
+                                                                    <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                       class="bt_color">View on map
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="col-md-3 col-xs-12">
+                                        <h3 class="h3 title-footer-block hidden-sm-down">FOLLOW US ON FACEBOOK</h3>
+                                        <div class="title clearfix hidden-md-up" data-target="#footer_show_face"
+                                             data-toggle="collapse">
+                                            <span class="h3">FOLLOW US ON FACEBOOK</span>
+                                            <span class="pull-xs-right">
+                                                <span class="navbar-toggler collapse-icons">
+                                                    <i class="material-icons add">expand_more</i>
+                                                    <i class="material-icons remove">expand_less</i>
+                                                </span>
+                                            </span>
+                                        </div>
+                                        <div id="footer_show_face" class="collapse">
+                                            <div class="fb-page fb_iframe_widget"
+                                                 data-href="https://www.facebook.com/facebook"
+                                                 data-tabs="timeline" data-height="265" data-small-header="false"
+                                                 data-adapt-container-width="true" data-hide-cover="false"
+                                                 data-show-facepile="true" fb-xfbml-state="rendered"
+                                                 fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=270&amp;height=265&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline">
+                                                <span style="vertical-align: bottom; width: 270px; height: 265px;">
+                                                    <iframe
+                                                            name="f133708c10aea88" width="1000px" height="265px"
+                                                            data-testid="fb:page Facebook Social Plugin"
+                                                            title="fb:page Facebook Social Plugin" frameborder="0"
+                                                            allowtransparency="true" allowfullscreen="true"
+                                                            scrolling="no"
+                                                            allow="encrypted-media" src="./index_files/page.html"
+                                                            style="border: none; visibility: visible; width: 270px; height: 265px;"
+                                                            class=""></iframe>
+                                                </span>
+                                            </div>
+
+                                            <div id="fb-root" class=" fb_reset">
+                                                <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                            <script>
+                                                (function (d, s, id) {
+                                                var js, fjs = d.getElementsByTagName(s)[0];
+                                                if (d.getElementById(id)) return;
+                                                js = d.createElement(s);
+                                                js.id = id;
+                                                js.src = "//connect.facebook.net/EN_US/sdk.js#xfbml=1version=v2.10";
+                                                fjs.parentNode.insertBefore(js, fjs);
+                                                }(document, 'script', 'facebook-jssdk'));
+
+
+                                            </script>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer_top">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="links">
+                                                <div class="">
+                                                    <div class="wrapper ">
+                                                        <h3 class="h3 title-footer-block hidden-sm-down">Information
+                                                        </h3>
+                                                        <div class="title clearfix hidden-md-up"
+                                                             data-target="#footer_sub_menu_19159"
+                                                             data-toggle="collapse">
+                                                            <span class="h3">Information</span>
+                                                            <span class="pull-xs-right">
+                                                                <span class="navbar-toggler collapse-icons">
+                                                                    <i class="material-icons add">expand_more</i>
+                                                                    <i class="material-icons remove">expand_less</i>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                        <ul id="footer_sub_menu_19159" class="collapse">
+                                                            <li>
+                                                                <a id="link-cms-page-3-1" class="cms-page-link"
+                                                                   href="https://ets-demos.com/theme/digital17/en/content/3-terms-and-conditions-of-use"
+                                                                   title="Our terms and conditions of use">Terms and
+                                                                    conditions
+                                                                    of use
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a id="link-product-page-prices-drop-1"
+                                                                   class="cms-page-link"
+                                                                   href="https://ets-demos.com/theme/digital17/en/prices-drop"
+                                                                   title="On-sale products">Prices drop
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a id="link-product-page-new-products-1"
+                                                                   class="cms-page-link"
+                                                                   href="https://ets-demos.com/theme/digital17/en/new-products"
+                                                                   title="Our new products">New products
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a id="link-product-page-best-sales-1"
+                                                                   class="cms-page-link"
+                                                                   href="https://ets-demos.com/theme/digital17/en/best-sales"
+                                                                   title="Our best sales">Best sales
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a id="link-static-page-stores-1" class="cms-page-link"
+                                                                   href="https://ets-demos.com/theme/digital17/en/stores"
+                                                                   title="">Stores
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="wrapper item_last">
+                                                        <h3 class="h3 title-footer-block hidden-sm-down">Our company
+                                                        </h3>
+                                                        <div class="title clearfix hidden-md-up"
+                                                             data-target="#footer_sub_menu_70512"
+                                                             data-toggle="collapse">
+                                                            <span class="h3">Our company</span>
+                                                            <span class="pull-xs-right">
+                                                                <span class="navbar-toggler collapse-icons">
+                                                                    <i class="material-icons add">expand_more</i>
+                                                                    <i class="material-icons remove">expand_less</i>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                        <ul id="footer_sub_menu_70512" class="collapse">
+                                                            <li>
+                                                                <a id="link-cms-page-1-2" class="cms-page-link"
+                                                                   href="https://ets-demos.com/theme/digital17/en/content/1-delivery"
+                                                                   title="Our terms and conditions of delivery">Delivery
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a id="link-cms-page-2-2" class="cms-page-link"
+                                                                   href="https://ets-demos.com/theme/digital17/en/content/2-legal-notice"
+                                                                   title="Legal notice">Legal Notice
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a id="link-cms-page-3-2" class="cms-page-link"
+                                                                   href="https://ets-demos.com/theme/digital17/en/content/3-terms-and-conditions-of-use"
+                                                                   title="Our terms and conditions of use">Terms and
+                                                                    conditions
+                                                                    of use
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a id="link-cms-page-4-2" class="cms-page-link"
+                                                                   href="https://ets-demos.com/theme/digital17/en/content/4-about-us"
+                                                                   title="Learn more about us">About us
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a id="link-cms-page-5-2" class="cms-page-link"
+                                                                   href="https://ets-demos.com/theme/digital17/en/content/5-secure-payment"
+                                                                   title="Our secure payment method">Secure payment
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a id="link-static-page-contact-2" class="cms-page-link"
+                                                                   href="https://ets-demos.com/theme/digital17/en/contact-us"
+                                                                   title="Use our form to contact us">Contact us
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a id="link-static-page-stores-2" class="cms-page-link"
+                                                                   href="https://ets-demos.com/theme/digital17/en/stores"
+                                                                   title="">Stores
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div id="block_myaccount_infos" class="links wrapper">
+                                                <h3 class="myaccount-title hidden-sm-down">
+                                                    <a class="text-uppercase"
+                                                       href="https://ets-demos.com/theme/digital17/en/my-account"
+                                                       rel="nofollow">
+                                                        My account
+                                                    </a>
+                                                </h3>
+                                                <div class="title clearfix hidden-md-up"
+                                                     data-target="#footer_account_list"
+                                                     data-toggle="collapse">
+                                                    <span class="h3">Your account</span>
+                                                    <span class="pull-xs-right">
+                                                        <span class="navbar-toggler collapse-icons">
+                                                            <i class="material-icons add">expand_more</i>
+                                                            <i class="material-icons remove">expand_less</i>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                                <ul class="account-list collapse" id="footer_account_list">
+
+                                                    <li>
+                                                        <a href="https://ets-demos.com/theme/digital17/en/addresses"
+                                                           title="My addresses" rel="nofollow">
+                                                            My addresses
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://ets-demos.com/theme/digital17/en/credit-slip"
+                                                           title="My credit slips" rel="nofollow">
+                                                            My credit slips
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://ets-demos.com/theme/digital17/en/order-history"
+                                                           title="My orders" rel="nofollow">
+                                                            My orders
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://ets-demos.com/theme/digital17/en/identity"
+                                                           title="My personal info" rel="nofollow">
+                                                            My personal info
+                                                        </a>
+                                                    </li>
+
+
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <ul class="ybc-widget-display-footer">
+                                                <li class="ybc-widget-item-display-footer ybc-widget-item wow zoomIn"
+                                                    style="visibility: hidden; animation-name: none;">
+                                                    <div class="ybc-widget-item-content">
+                                                        <div class="ybc-widget-description-content">
+
+                                                            <h3 class="h3 title-footer-block hidden-sm-down">
+                                                                <span>Company</span>
+                                                            </h3>
+                                                            <div class="title clearfix hidden-md-up"
+                                                                 data-target="#footer_company" data-toggle="collapse">
+                                                                <span class="h3">Company</span>
+                                                                <span class="pull-xs-right">
+                                                                    <span class="navbar-toggler collapse-icons">
+                                                                        <i class="material-icons add">expand_more</i>
+                                                                        <i class="material-icons remove">expand_less</i>
+                                                                    </span>
+                                                                </span>
+                                                            </div>
+
+                                                            <div id="footer_company" class="collapse">
+                                                                <div class="ybc-widget-description"
+                                                                     id="footer_show_company">
+                                                                    <ul class="&#39; style=">
+                                                                        <li class="ybc-widget-item">
+                                                                            <div class="ybc-widget-item-content">
+                                                                                <a
+                                                                                        href="https://ets-demos.com/theme/digital17/content/4-about-us">
+                                                                                    About
+                                                                                    us
+                                                                                </a>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="ybc-widget-item">
+                                                                            <div class="ybc-widget-item-content">
+                                                                                <a
+                                                                                        href="https://ets-demos.com/theme/digital17/contact-us">
+                                                                                    Contact
+                                                                                    Us
+                                                                                </a>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="ybc-widget-item">
+                                                                            <div class="ybc-widget-item-content">
+                                                                                <a
+                                                                                        href="https://ets-demos.com/theme/digital17/content/1-delivery">
+                                                                                    Delivery
+                                                                                </a>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="ybc-widget-item">
+                                                                            <div class="ybc-widget-item-content">
+                                                                                <a
+                                                                                        href="https://ets-demos.com/theme/digital17/en/#">
+                                                                                    Privacy
+                                                                                </a>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+
+                                        <div class="block_newsletter links col-lg-3 col-md-3 col-sm-12">
+                                            <h3 class="text-uppercase title-footer-block hidden-xs-down hidden-sm-down">
+                                                Newsletter
+                                            </h3>
+                                            <div class="title clearfix hidden-md-up" data-target="#footer_nlt"
+                                                 data-toggle="collapse">
+                                                <span class="h3">Newsletter</span>
+                                                <span class="pull-xs-right">
+                                                    <span class="navbar-toggler collapse-icons">
+                                                        <i class="material-icons add">expand_more</i>
+                                                        <i class="material-icons remove">expand_less</i>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <div id="footer_nlt" class="col-md-12 col-xs-12 collapse">
+                                                <form action="https://ets-demos.com/theme/digital17/en/#footer"
+                                                      method="post">
+                                                    <div class="row">
+                                                        <p>Stay up to date with our company news, new productsand
+                                                            exclusive
+                                                            offers
+                                                        </p>
+                                                        <div class="block_newsletter_form">
+                                                            <div class="newsletter_submit">
+                                                                <input class="btn btn-primary pull-xs-right"
+                                                                       name="submitNewsletter" type="submit"
+                                                                       value="Subscribe"/>
+                                                                <input class="btn btn-primary pull-xs-right hidden-sm-up hidden-xs-down"
+                                                                       name="submitNewsletter" type="submit"
+                                                                       value="OK"/>
+                                                            </div>
+                                                            <div class="input-wrapper">
+                                                                <input name="email" type="text" value=""
+                                                                       placeholder="Enter your email..."/>
+                                                            </div>
+                                                            <input type="hidden" name="action" value="0"/>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                        <div class="col-xs-12">
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="ybc-theme-panel closed">
+                                            <div class="ybc-theme-panel-medium">
+                                                <div class="ybc-theme-panel-btn" title="Theme Option"></div>
+                                                <div class="ybc-theme-panel-loading">
+                                                    <div class="ybc-theme-panel-loading-setting">
+                                                        <h2>
+                                                            <img alt="Loading" class="ybc-theme-panel-loading-logo"
+                                                                 src="./index_files/loading.gif"/>
+                                                            <br/>
+                                                            <span>Updating...</span>
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <div class="ybc-theme-panel-wrapper">
+                                                    <h2>Theme options</h2>
+                                                    <div class="ybc-theme-panel-box tc-separator">
+                                                        <h3>Theme color</h3>
+                                                    </div>
+                                                    <div class="ybc-theme-panel-inner">
+                                                        <div class="ybc-theme-panel-box">
+                                                            <ul class="ybc-skin ybc_tc_skin ybc_select_option"
+                                                                id="ybc_tc_skin">
+                                                                <li style="background: #28abe3;" class="active"
+                                                                    data-val="BLUE_1" title="Blue 1">Blue 1
+                                                                </li>
+                                                                <li style="background: #6e9ecf;" data-val="BLUE_2"
+                                                                    title="Blue 2">Blue 2
+                                                                </li>
+                                                                <li style="background: #73c5e1;" data-val="BLUE_3"
+                                                                    title="Blue 3">Blue 3
+                                                                </li>
+                                                                <li style="background: #00ccd6;" data-val="CYAN"
+                                                                    title="CYAN">
+                                                                    CYAN
+                                                                </li>
+                                                                <li style="background: #50BE07;" data-val="GREEN_1"
+                                                                    title="Green 1">Green 1
+                                                                </li>
+                                                                <li style="background: #87af33;" data-val="GREEN_2"
+                                                                    title="Green 2">Green 2
+                                                                </li>
+                                                                <li style="background: #EC4249;" data-val="RED"
+                                                                    title="Red">
+                                                                    Red
+                                                                </li>
+                                                                <li style="background: #FF6C8D;" data-val="CUSTOM"
+                                                                    title="Custom color (Your color)">Custom color (Your
+                                                                    color)
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                        <div class="ybc-theme-panel-box tc-separator">
+                                                            <h3>Layout type</h3>
+                                                        </div>
+                                                        <div class="ybc-theme-panel-box">
+                                                            <ul id="ybc_tc_layout"
+                                                                class="ybc_tc_layout ybc_select_option">
+                                                                <li class="active" data-val="LayoutHome1">Layout 1</li>
+                                                                <li data-val="LayoutHome2">Layout 2</li>
+                                                                <li data-val="LayoutHome3">Layout 3</li>
+                                                                <li data-val="LayoutHome4">Layout 4</li>
+                                                                <li data-val="LayoutHome5">Layout 5</li>
+                                                                <li data-val="LayoutHome6">Layout 6</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="ybc-theme-panel-box tc-separator">
+                                                            <h3>Float header</h3>
+                                                        </div>
+                                                        <div class="ybc-theme-panel-box">
+                                                            <ul id="ybc_tc_float_header"
+                                                                class="ybc_tc_float_header ybc_select_option">
+                                                                <li class="active" data-val="1">Yes</li>
+                                                                <li data-val="0">No</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="ybc-theme-panel-box tc-reset">
+                                                            <span id="tc-reset">Reset to default</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tc_comparison_msg tc_comparison_success">
+                                            <p>The product has been successfully added to comparison</p>
+                                            <a href="https://ets-demos.com/theme/digital17/en/index.php?controller=products-comparison"
+                                               class="button">View all products
+                                            </a>
+                                        </div>
+                                        <div class="tc_comparison_msg tc_comparison_failed">
+                                            <p>The product has been removed from comparison</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="footer_after">
+                        <div class="container">
+                            <div class="payment_footer">
+                                <span class="hidden-xs">Our payment methods:</span>
+                                <div class="payment_item">
+                                    <img src="./index_files/paymentlogos1.png" alt="Payment methods"
+                                         title="Payment methods"/>
+                                </div>
+                                <div class="payment_item">
+                                    <img src="./index_files/73e1dd3f78486a8a1884c241d9a9a5e4bb7f2b98.png"
+                                         alt="Payment methods"
+                                         title="Payment methods"/>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="footer_before">
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-sm-6">
+                                    <div>
+                                        <div class="ybc_coppyright">
+                                            Copyright 2016 <a href="https://ets-demos.com/theme/digital17/en/#">Digital
+                                            Store
+                                            Co., LTD</a>. All rights reserved.
+                                        </div>
+                                    </div>
+                                    <div>
+
+                                        <div class="block-contact links wrapper">
+                                            <h4 class="text-uppercase title-footer-block block-contact-title hidden-xs-down">
+                                                Contact Us
+                                            </h4>
+
+                                            <div class="title clearfix hidden-md-up" data-target="#contact_footer"
+                                                 data-toggle="collapse">
+                                                <span class="h3">Contact Us</span>
+                                                <span class="pull-xs-right">
+                                                    <span class="navbar-toggler collapse-icons">
+                                                        <i class="material-icons add">expand_more</i>
+                                                        <i class="material-icons remove">expand_less</i>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <div id="contact_footer" class="contactinfo_footer collapse">
+                                                <div>
+                                                    <i aria-hidden="true" class="icon_pin_alt"></i>
+                                                    Address:
+                                                    Puffin street 12345 Puffinville France
+                                                </div>
+
+                                                <div>
+                                                    <a href="tel:0123456789">
+                                                        <i class="fa fa-phone"></i>
+                                                        Phone: 0123-456-789
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <a href="mailto:sales@yourcompany.com">
+                                                        <i aria-hidden="true" class="icon_mail_alt"></i>
+                                                        Email: sales@yourcompany.com
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <a href="skype:live:yourskypeid?call">
+                                                        <i class="fa fa-skype"></i>
+                                                        Skype: yourskypeid
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="block-social">
+                                            <h4>Follow us:</h4>
+                                            <ul>
+                                                <li class="facebook">
+                                                    <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                       target="_blank">Facebook
+                                                    </a>
+                                                </li>
+                                                <li class="twitter">
+                                                    <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                       target="_blank">Twitter
+                                                    </a>
+                                                </li>
+                                                <li class="rss">
+                                                    <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                       target="_blank">Rss
+                                                    </a>
+                                                </li>
+                                                <li class="googleplus">
+                                                    <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                       target="_blank">Google +
+                                                    </a>
+                                                </li>
+                                                <li class="pinterest">
+                                                    <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                       target="_blank">Pinterest
+                                                    </a>
+                                                </li>
+                                                <li class="vimeo">
+                                                    <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                       target="_blank">Vimeo
+                                                    </a>
+                                                </li>
+                                                <li class="instagram">
+                                                    <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                       target="_blank">Instagram
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 mobie_none">
+                                    <div class="before_right">
+                                        <img src="./index_files/d485fa3bc0fce31b2bef2ef89ebbf76da6aa264e.png"
+                                             alt="Ssl image"
+                                             title="ssl image"/>
+                                        <div class="content_ssl">
+                                            This website is fully secure
+                                            <br/>
+                                            with SSL protection
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll_top">
+                        <span>TOP</span>
+                    </div>
+                </div>
+                <div class="popup_show" id="popup_show">
+                    <div class="content_p">
+                        <span class="button_close">
+                            <i class="fa fa-times"></i>
+                        </span>
+                        <div class="content_popup_view">
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+            <xpath expr="//div[@class='o_footer_copyright']" position="replace">
+                <div class="o_footer_copyright">
+                        <div class="container py-3">
+                            <div class="row">
+                                <div class="col-sm text-center text-muted" style="padding-top:18px">
+                                    <t t-call="web.debug_icon"/>
+                                    <span>Copyright &amp;copy; 2021</span> <span t-field="res_company.name" itemprop="name">Company name</span>
+                                    <span>| All Rights Reserved.</span>
+                                </div>
+<!--                                <div class="col-sm text-center text-sm-right">-->
+<!--                                    <t t-call="web.brand_promotion"/>-->
+<!--                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

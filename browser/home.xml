@@ -1,0 +1,799 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+        <template id="home_inherit" name="Homepage Dell" inherit_id="website.homepage" active="True">
+            <xpath expr="//div[@id='wrap']" position="attributes">
+                <attribute name="class">maincontent_v1</attribute>
+            </xpath>
+            <xpath expr="//div[@id='wrap']" position="inside">
+                <div class="ets_multilayerslider   home12" style="height: 478.646px;">
+                        <div class="mls_slides" style="transform: scale(0.957292);">
+                            <div data-max-slide-time="7700"
+                                 class="mls_slider mls_slider_type_full mls_layout_ltr mls_running mls_moving_in"
+                                 style="
+                width: 1920px; height: 500px;
+                 background-color: #f5f5f2;" data-slider-type="full" data-hook-to="customhook"
+                                 data-slider-background="#f5f5f2"
+                                 data-slider-button-color="" data-width-slide="1920" data-height-slide="500"
+                                 data-move-in="1000"
+                                 data-move-out="2000" data-stand-duration="0" data-auto-play="1"
+                                 data-enable-running-bar="1"
+                                 data-pause-on-hover="1" data-loop="1" data-enable-loading-icon="1"
+                                 data-enable-next-prev="1"
+                                 data-enable-pagination="0">
+                                <div class="mls_slider_running" style="animation-duration: 4500ms;"></div>
+                                <ul class="mls_slides_front">
+                                    <li data-slide-background-image="https://ets-demos.com/theme/digital17/modules/ets_multilayerslider/views/img/upload/14_slider-1.jpg"
+                                        data-slide-order="1" data-max-layer-in="3500" data-max-layer-out="1200"
+                                        data-animation-in="zoomInFlipHoriz" data-animation-out="zoomOutFlipVert"
+                                        data-id-slide="14"
+                                        class="mls_slide_front  item_1 mls_slide_14 zoomInFlipHoriz active"
+                                        style="background-repeat: no-repeat; background-color: rgb(245, 245, 242); position: relative; background-image: url(&quot;/theme/digital17/modules/ets_multilayerslider/views/img/upload/14_slider-1.jpg&quot;); animation-duration: 1000ms; transition-duration: 1000ms;">
+
+                                        <div class="msl_layer_front  msl_layer_53 layer_layout_ltr mls_layer_type_front_text fadeInLeft active"
+                                             style="position: absolute; left: 685px; top: 137px; right: auto; float: left; bottom: auto; z-index: 1; animation-duration: 1000ms;"
+                                             data-top="137.00" data-id-layer="53" data-animation-in="fadeInLeft"
+                                             data-animation-out="fadeOutLeft" data-move-in="1000" data-move-out="500"
+                                             data-delay-in="0" data-delay-out="0">
+                                            <span style="
+                                                        font-size:16.00px;
+                                                        color:#454545; font-weight:normal; text-decoration:none; text-transform:uppercase;">
+                                                <span class="color2">New
+                                                </span>
+                                                lap top Serires
+                                            </span>
+                                        </div>
+                                        <div class="msl_layer_front main-color msl_layer_54 layer_layout_ltr mls_layer_type_front_text slideInRight active"
+                                             style="position: absolute; left: 685px; top: 169px; right: auto; float: left; bottom: auto; z-index: 2; animation-duration: 1000ms;"
+                                             data-top="169.00" data-id-layer="54" data-animation-in="slideInRight"
+                                             data-animation-out="slideOutRight" data-move-in="1000" data-move-out="500"
+                                             data-delay-in="0" data-delay-out="0">
+                                            <span style="
+                                                        font-size:45.00px;
+                                                        color:#333333;                                            font-family:Montserrat;                                            font-weight:bold;                                            text-decoration:none;                                            text-transform:uppercase;                                        ">
+                                                Acer Aspire R11
+                                            </span>
+                                        </div>
+                                        <div class="msl_layer_front sub_title msl_layer_55 layer_layout_ltr mls_layer_type_front_text slideOutRight"
+                                             style="position: absolute; left: 685px; top: 225px; right: auto; float: left; bottom: auto; z-index: 3; animation-duration: 700ms;"
+                                             data-top="225.00" data-id-layer="55" data-animation-in="slideInRight"
+                                             data-animation-out="slideOutRight" data-move-in="1000" data-move-out="700"
+                                             data-delay-in="900" data-delay-out="500">
+                                            <span style="
+                                                        font-size:14.00px;
+                                                        color:#888888;                                                                                        font-weight:normal;                                            text-decoration:none;                                            text-transform:none;                                        ">
+                                                New laptop model from Acer, powerful notebook for
+                                                <br/>
+                                                anywhere the jobs take you
+                                            </span>
+                                        </div>
+                                        <div class="msl_layer_front main-color-btn msl_layer_56 layer_layout_ltr mls_layer_type_front_button zoomOut"
+                                             style="position: absolute; left: 685px; top: 290px; right: auto; float: left; bottom: auto; z-index: 4; animation-duration: 500ms;"
+                                             data-top="290.00" data-id-layer="56" data-animation-in="zoomIn"
+                                             data-animation-out="zoomOut" data-move-in="1000" data-move-out="500"
+                                             data-delay-in="2500" data-delay-out="500">
+                                            <a href="https://ets-demos.com/theme/digital17/en/#">
+                                                <span style="
+                                                        font-size:14.00px;
+                                                        color:#ffffff;                                                                                        font-weight:normal;                                            background-color:#5e5e5e;                                            padding:15px 30px;                                                                                    ">
+                                                    Purchase Now
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </li>
+                                    <li data-slide-background-image="/theme/digital17/modules/ets_multilayerslider/views/img/upload/slider11.jpg"
+                                        data-slide-order="2" data-max-layer-in="3500" data-max-layer-out="1200"
+                                        data-animation-in="zoomInFlipHoriz" data-animation-out="zoomOutFlipVert"
+                                        data-id-slide="20"
+                                        class="mls_slide_front  item_2 mls_slide_20 active zoomOutFlipVert"
+                                        style="background-image: url(&quot;https://ets-demos.com/theme/digital17/modules/ets_multilayerslider/views/img/upload/slider11.jpg&quot;); background-repeat: no-repeat; background-color: rgb(245, 245, 242); position: relative; animation-duration: 2000ms; transition-duration: 2000ms;">
+
+                                        <div class="msl_layer_front  msl_layer_77 layer_layout_ltr mls_layer_type_front_text fadeOutLeft"
+                                             style="position: absolute; left: 685px; top: 137px; right: auto; float: left; bottom: auto; z-index: 1; animation-duration: 500ms;"
+                                             data-top="137.00" data-id-layer="77" data-animation-in="fadeInLeft"
+                                             data-animation-out="fadeOutLeft" data-move-in="1000" data-move-out="500"
+                                             data-delay-in="0" data-delay-out="0">
+                                            <span style="
+                                                        font-size:16.00px;
+                                                        color:#454545;                                                                                        font-weight:normal;                                            text-decoration:none;                                            text-transform:uppercase;                                        ">
+                                                <span
+                                                        class="color2">New
+                                                </span>
+                                                generation of digital cameras
+                                            </span>
+                                        </div>
+                                        <div class="msl_layer_front main-color msl_layer_78 layer_layout_ltr mls_layer_type_front_text slideOutRight"
+                                             style="position: absolute; left: 685px; top: 169px; right: auto; float: left; bottom: auto; z-index: 2; animation-duration: 500ms;"
+                                             data-top="169.00" data-id-layer="78" data-animation-in="slideInRight"
+                                             data-animation-out="slideOutRight" data-move-in="1000" data-move-out="500"
+                                             data-delay-in="0" data-delay-out="0">
+                                            <span style="
+                                                        font-size:45.00px;
+                                                        color:#333333;                                            font-family:Montserrat;                                            font-weight:bold;                                            text-decoration:none;                                            text-transform:uppercase;                                        ">
+                                                Canon fx800d
+                                            </span>
+                                        </div>
+                                        <div class="msl_layer_front sub_title msl_layer_79 layer_layout_ltr mls_layer_type_front_text slideOutRight"
+                                             style="position: absolute; left: 685px; top: 225px; right: auto; float: left; bottom: auto; z-index: 3; animation-duration: 700ms;"
+                                             data-top="225.00" data-id-layer="79" data-animation-in="slideInRight"
+                                             data-animation-out="slideOutRight" data-move-in="1000" data-move-out="700"
+                                             data-delay-in="900" data-delay-out="500">
+                                            <span style="
+                                                        font-size:14.00px;
+                                                        color:#888888;                                                                                        font-weight:normal;                                            text-decoration:none;                                            text-transform:none;                                        ">
+                                                Get thhe confident to archive your photographic
+                                                <br/>
+                                                vision with canon FX800D
+                                            </span>
+                                        </div>
+                                        <div class="msl_layer_front main-color-btn msl_layer_80 layer_layout_ltr mls_layer_type_front_button zoomOut"
+                                             style="position: absolute; left: 685px; top: 290px; right: auto; float: left; bottom: auto; z-index: 4; animation-duration: 500ms;"
+                                             data-top="290.00" data-id-layer="80" data-animation-in="zoomIn"
+                                             data-animation-out="zoomOut" data-move-in="1000" data-move-out="500"
+                                             data-delay-in="2500" data-delay-out="500">
+                                            <a href="https://ets-demos.com/theme/digital17/en/#">
+                                                <span style="
+                                                        font-size:14.00px;
+                                                        color:#ffffff;                                                                                        font-weight:normal;                                            background-color:#5e5e5e;                                            padding:15px 30px;                                                                                    ">
+                                                    Purchase Now
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </li>
+                                </ul>
+                                <div class="mls_loading_icon" style="background-color: #f5f5f2;">
+                                    <img src="https://ets-demos.com/theme/digital17/45-home_default/ajax-loader.gif" alt="" style="transform: scale(1.04271) translate3d(-50%, -50%, 0px);"/>
+                                </div>
+                                <div class="mls_nav">
+                                    <div class="mls_prev" style="transform: scale(1.04271);">
+                                        Prev
+                                    </div>
+                                    <div class="mls_next" style="transform: scale(1.04271);">
+                                        Next
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div id="content-wrapper">
+                   <div class="container">
+                      <div class="row">
+                         <div id="main" style="width: -webkit-fill-available;">
+                            <section id="content" class="page-home">
+                               <div class="ybc-widget-display-home">
+                                  <div class="">
+                                     <div class="ybc-widget-display-home-content owl-loaded owl-drag">
+                                        <div class="owl-stage-outer">
+                                           <div class="owl-stage"
+                                              style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1600px;">
+                                              <div class="owl-item active" style="width: 370px; margin-right: 30px;">
+                                                 <div class="ybc-widget-item wow zoomIn"
+                                                    style="visibility: visible; animation-name: zoomIn;">
+                                                    <div class="ybc-widget-item-content ">
+                                                       <div class="wd-content-display-home">
+                                                          <span class="sub_title main-bg4">-15% OFF</span>
+                                                          <img src="https://ets-demos.com/theme/digital17/modules/ybc_widget/images/widget/buddy-cameras-.jpg"
+                                                             alt="Wifi cameras"/>
+                                                          <div class="des_content">
+                                                             <h4 class="ybc-widget-title">
+                                                                Wifi cameras
+                                                             </h4>
+                                                             <div class="ybc-widget-description">
+                                                                <p>Safety
+                                                                   measure for <br/>your house
+                                                                </p>
+                                                                <p>
+                                                                   <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                      class="bt_color">Purchase Now</a>
+                                                                </p>
+                                                             </div>
+                                                          </div>
+                                                       </div>
+                                                    </div>
+                                                 </div>
+                                              </div>
+                                               <div class="owl-item " style="width: 370px; margin-right: 30px;">
+                                                 <div class="ybc-widget-item wow zoomIn"
+                                                    style="visibility: visible; animation-name: zoomIn;">
+                                                    <div class="ybc-widget-item-content ">
+                                                       <div class="wd-content-display-home">
+                                                          <span class="sub_title main-bg4">-15% OFF</span>
+                                                          <img src="https://ets-demos.com/theme/digital17/modules/ybc_widget/images/widget/buddy-cameras-.jpg"
+                                                             alt="Wifi cameras"/>
+                                                          <div class="des_content">
+                                                             <h4 class="ybc-widget-title">
+                                                                Wifi cameras
+                                                             </h4>
+                                                             <div class="ybc-widget-description">
+                                                                <p>Safety
+                                                                   measure for <br/>your house
+                                                                </p>
+                                                                <p>
+                                                                   <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                      class="bt_color">Purchase Now</a>
+                                                                </p>
+                                                             </div>
+                                                          </div>
+                                                       </div>
+                                                    </div>
+                                                 </div>
+                                              </div>
+                                               <div class="owl-item " style="width: 370px; margin-right: 30px;">
+                                                 <div class="ybc-widget-item wow zoomIn"
+                                                    style="visibility: visible; animation-name: zoomIn;">
+                                                    <div class="ybc-widget-item-content ">
+                                                       <div class="wd-content-display-home">
+                                                          <span class="sub_title main-bg4">-15% OFF</span>
+                                                          <img src="https://ets-demos.com/theme/digital17/modules/ybc_widget/images/widget/buddy-cameras-.jpg"
+                                                             alt="Wifi cameras"/>
+                                                          <div class="des_content">
+                                                             <h4 class="ybc-widget-title">
+                                                                Wifi cameras
+                                                             </h4>
+                                                             <div class="ybc-widget-description">
+                                                                <p>Safety
+                                                                   measure for <br/>your house
+                                                                </p>
+                                                                <p>
+                                                                   <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                      class="bt_color">Purchase Now</a>
+                                                                </p>
+                                                             </div>
+                                                          </div>
+                                                       </div>
+                                                    </div>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                        </div>
+<!--                                        <div class="owl-nav disabled">-->
+<!--                                           <div class="owl-prev"></div>-->
+<!--                                           <div class="owl-next"></div>-->
+<!--                                        </div>-->
+<!--                                        <div class="owl-dots disabled"></div>-->
+                                     </div>
+                                  </div>
+                               </div>
+                               <section class="featured-products clearfix home-block-section col-xs-12 col-sm-12">
+                                  <h3 class="h1 products-section-title text-uppercase title-home1">
+                                     <span>Sản phẩm hot</span>
+                                  </h3>
+                                  <div class="products product_list homefeatured owl-loaded owl-drag">
+                                     <div class="owl-stage-outer">
+                                        <div class="owl-stage"
+                                           style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2400px;">
+                                           <div class="owl-item active" style="width: 270px; margin-right: 30px;">
+                                              <article class=" wow zoomIn product-miniature js-product-miniature"
+                                                 data-id-product="1" data-id-product-attribute="1" itemscope=""
+                                                 style="animation-name: none;">
+                                                 <div class="thumbnail-container">
+                                                    <div class="left-block">
+                                                       <div class="product-image-container">
+                                                          <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/1-1-faded-short-sleeves-tshirt.html#/1-size-s/13-color-orange"
+                                                             class="thumbnail product-thumbnail product_img_link">
+                                                          <img src="https://ets-demos.com/theme/digital17/38-home_default/faded-short-sleeves-tshirt.jpg"
+                                                             alt=""
+                                                             data-full-size-image-url="https://ets-demos.com/theme/digital17/38-large_default/faded-short-sleeves-tshirt.jpg"/>
+                                                          <img class="fade replace-2x img-responsive ybc_img_hover"
+                                                             src="https://ets-demos.com/theme/digital17/38-home_default/faded-short-sleeves-tshirt(1).jpg"
+                                                             alt="Faded Short Sleeves T-shirt"
+                                                             itemprop="image"
+                                                             title="Faded Short Sleeves T-shirt"/>
+                                                          </a>
+                                                          <ul class="product-flags">
+                                                             <li class="product-discount">
+                                                                <span class="discount-percen">Sale</span>
+                                                             </li>
+                                                          </ul>
+                                                          <div class="button-container-product">
+                                                             <div class="highlighted-informations">
+                                                                <a title="Add to Wishlistyy"
+                                                                   class="wishlist addToWishlist wishlistProd_1"
+                                                                   href="https://ets-demos.com/theme/digital17/en/#"
+                                                                   data-rel="1"
+                                                                   onclick="WishlistCart(&#39;wishlist_block_list&#39;, &#39;add&#39;, &#39;1&#39;, false, 1); return false;"></a>
+                                                                <input type="hidden"
+                                                                   value="The product was successfully added to your wishlist."
+                                                                   class="wl_login"/>
+                                                                <input type="hidden"
+                                                                   value="You must be logged in to manage your wishlist."
+                                                                   class="wl_not_login"/>
+                                                                <script type="text/javascript">
+                                                                   var log_in = $('.wl_login').val();
+                                                                   var not_log_in = $('.wl_not_login').val();
+                                                                </script>
+                                                                <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                   class="quick-view"
+                                                                   data-link-action="quickview"
+                                                                   title="Quick view" data-toggle="tooltip">
+                                                                </a>
+                                                             </div>
+                                                          </div>
+                                                       </div>
+                                                    </div>
+                                                    <div class="right-block">
+                                                       <h4 class="h3 product-title" itemprop="name"><a
+                                                          href="https://ets-demos.com/theme/digital17/en/sony-bravia/1-1-faded-short-sleeves-tshirt.html#/1-size-s/13-color-orange">Faded
+                                                          Short Sleeves T-shirt</a>
+                                                       </h4>
+                                                       <div class="product-price-and-shipping">
+                                                          <span itemprop="price" class="price product-price">$14.86</span>
+                                                          <span class="old-price product-price">$16.51</span>
+                                                       </div>
+                                                       <div class="hook-reviews">
+                                                          <div class="comments_note">
+                                                             <div class="star_content clearfix">
+                                                                <div class="star star_on"></div>
+                                                                <div class="star star_on"></div>
+                                                                <div class="star star_on"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                             </div>
+                                                             <span class="count_star">3 Review(s) </span>
+                                                          </div>
+                                                       </div>
+                                                       <span class="price-percent-reduction ">Buy now to save -10%</span>
+                                                       <div class="short_description">
+                                                          <p>Faded short sleeves
+                                                             t-shirt with high neckline. Soft and stretchy material
+                                                             for a comfortable...
+                                                          </p>
+                                                       </div>
+                                                       <div class="">
+                                                          <div class="clearfix atc_div add_to_cart_button">
+                                                             <input name="qty" type="hidden"
+                                                                class="form-control atc_qty" value="1"
+                                                                onfocus="if(this.value == &#39;1&#39;) this.value = &#39;&#39;;"
+                                                                onblur="if(this.value == &#39;&#39;) this.value = &#39;1&#39;;"/>
+                                                             <button class="add_to_cart btn btn-primary btn-sm"
+                                                                onclick="mypresta_productListCart.add($(this));">
+                                                             <span>Add to cart</span>
+                                                             </button>
+                                                          </div>
+                                                       </div>
+                                                    </div>
+                                                    <!--<div class="image_item_product">
+                                                       </div>-->
+                                                 </div>
+                                              </article>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="owl-nav">
+                                        <div class="owl-prev disabled"></div>
+                                        <div class="owl-next"></div>
+                                     </div>
+                                     <div class="owl-dots disabled"></div>
+                                  </div>
+                               </section>
+                               <ul class="ybc-widget-ybc-custom-1 col-xs-12 col-sm-12  hidden-xs-down">
+                                  <li class="ybc-widget-item">
+                                     <div class="ybc-widget-item-content">
+                                        <a class="ybc_widget_link_img"
+                                           href="https://ets-demos.com/theme/digital17/en/#">
+                                        <img src="https://ets-demos.com/theme/digital17/modules/ybc_widget/images/widget/home1z.jpg" alt="Dell Vostro 1210"/>
+                                        </a>
+                                        <div class="ybc-widget-description-content">
+                                           <h4 class="ybc-widget-title"><a
+                                              href="https://ets-demos.com/theme/digital17/en/#"> Dell Vostro
+                                              1210</a>
+                                           </h4>
+                                           <div class="ybc-widget-description">
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+                                                 odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
+                                                 quis sem at nibh
+                                              </p>
+                                              <p><a href="https://ets-demos.com/theme/digital17/en/#"
+                                                 class="bt_color">Purchase Now</a></p>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </li>
+                               </ul>
+                               <section class="featured-products clearfix home-block-section col-xs-12 col-sm-12">
+                                  <h3 class="h1 products-section-title text-uppercase title-home2">
+                                     <span>Thiết bị mạng</span>
+                                  </h3>
+                                  <div class="products product_list owl-loaded owl-drag">
+                                     <div class="owl-stage-outer">
+                                        <div class="owl-stage"
+                                           style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1800px;">
+                                           <div class="owl-item active" style="width: 270px; margin-right: 30px;">
+                                              <article class=" wow zoomIn product-miniature js-product-miniature"
+                                                 data-id-product="2" data-id-product-attribute="7" itemscope=""
+                                                  
+                                                 style=" animation-name: none;">
+                                                 <div class="thumbnail-container">
+                                                    <div class="left-block">
+                                                       <div class="product-image-container">
+                                                          <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/2-7-blouse.html#/1-size-s/11-color-black"
+                                                             class="thumbnail product-thumbnail product_img_link">
+                                                          <img src="https://ets-demos.com/theme/digital17/43-large_default/blouse.jpg" alt=""
+                                                             data-full-size-image-url="https://ets-demos.com/theme/digital17/43-large_default/blouse.jpg"/><img
+                                                             class="fade replace-2x img-responsive ybc_img_hover"
+                                                             src="./index_files/blouse(1).jpg" alt="Blouse"
+                                                             itemprop="image" title="Blouse"/>
+                                                          </a>
+                                                          <ul class="product-flags">
+                                                             <li class="product-discount">
+                                                                <span class="discount-percen">Sale</span>
+                                                             </li>
+                                                          </ul>
+                                                          <div class="button-container-product">
+                                                             <div class="highlighted-informations">
+                                                                <a title="Add to Wishlistyy"
+                                                                   class="wishlist addToWishlist wishlistProd_2"
+                                                                   href="https://ets-demos.com/theme/digital17/en/#"
+                                                                   data-rel="2"
+                                                                   onclick="WishlistCart(&#39;wishlist_block_list&#39;, &#39;add&#39;, &#39;2&#39;, false, 1); return false;"></a>
+                                                                <input type="hidden"
+                                                                   value="The product was successfully added to your wishlist."
+                                                                   class="wl_login"/>
+                                                                <input type="hidden"
+                                                                   value="You must be logged in to manage your wishlist."
+                                                                   class="wl_not_login"/>
+                                                                <script type="text/javascript">
+                                                                   var log_in = $('.wl_login').val();
+                                                                   var not_log_in = $('.wl_not_login').val();
+                                                                </script>
+                                                                <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                   class="quick-view"
+                                                                   data-link-action="quickview"
+                                                                   title="Quick view" data-toggle="tooltip">
+                                                                </a>
+                                                             </div>
+                                                          </div>
+                                                       </div>
+                                                    </div>
+                                                    <div class="right-block">
+                                                       <h4 class="h3 product-title" itemprop="name"><a
+                                                          href="https://ets-demos.com/theme/digital17/en/sony-bravia/2-7-blouse.html#/1-size-s/11-color-black">Blouse</a>
+                                                       </h4>
+                                                       <div class="product-price-and-shipping">
+                                                          <span itemprop="price" class="price product-price">$24.29</span>
+                                                          <span class="old-price product-price">$26.99</span>
+                                                       </div>
+                                                       <div class="hook-reviews">
+                                                          <div class="comments_note">
+                                                             <div class="star_content clearfix">
+                                                                <div class="star star_on"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                             </div>
+                                                             <span class="count_star">1 Review(s) </span>
+                                                          </div>
+                                                       </div>
+                                                       <span class="price-percent-reduction ">Buy now to save -10%</span>
+                                                       <div class="short_description">
+                                                          <p>Short-sleeved blouse with
+                                                             feminine draped sleeve detail.
+                                                          </p>
+                                                       </div>
+                                                       <div class="">
+                                                          <div class="clearfix atc_div add_to_cart_button">
+                                                             <input name="qty" type="hidden"
+                                                                class="form-control atc_qty" value="1"
+                                                                onfocus="if(this.value == &#39;1&#39;) this.value = &#39;&#39;;"
+                                                                onblur="if(this.value == &#39;&#39;) this.value = &#39;1&#39;;"/>
+                                                             <button class="add_to_cart btn btn-primary btn-sm"
+                                                                onclick="mypresta_productListCart.add($(this));">
+                                                             <span>Add to cart</span>
+                                                             </button>
+                                                          </div>
+                                                       </div>
+                                                    </div>
+                                                    <!--<div class="image_item_product">
+                                                       </div>-->
+                                                 </div>
+                                              </article>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="owl-nav">
+                                        <div class="owl-prev disabled"></div>
+                                        <div class="owl-next"></div>
+                                     </div>
+                                     <div class="owl-dots disabled"></div>
+                                  </div>
+                               </section>
+                               <ul class="ybc-widget-ybc-custom-1 col-xs-12 col-sm-12  hidden-xs-down">
+                                  <li class="ybc-widget-item">
+                                     <div class="ybc-widget-item-content">
+                                        <a class="ybc_widget_link_img"
+                                           href="https://ets-demos.com/theme/digital17/en/#">
+                                        <img src="https://ets-demos.com/theme/digital17/modules/ybc_widget/images/widget/home2z.jpg" alt="Samsung phone  New arrivals"/>
+                                        </a>
+                                        <div class="ybc-widget-description-content">
+                                           <h4 class="ybc-widget-title"><a
+                                              href="https://ets-demos.com/theme/digital17/en/#"> Samsung phone New
+                                              arrivals</a>
+                                           </h4>
+                                           <h5
+                                              class="ybc-widget-subtitle">Sale off all products</h5>
+                                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio
+                                              Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem
+                                           </p>
+                                        </div>
+                                     </div>
+                                  </li>
+                               </ul>
+                               <section class="featured-products clearfix home-block-section col-xs-12 col-sm-12">
+                                  <h3 class="h1 products-section-title text-uppercase title-home3">
+                                     <span>Phụ kiện máy tính</span>
+                                  </h3>
+                                  <div class="products product_list owl-loaded owl-drag">
+                                     <div class="owl-stage-outer">
+                                        <div class="owl-stage"
+                                           style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2100px;">
+                                           <div class="owl-item active" style="width: 270px; margin-right: 30px;">
+                                              <article class=" wow zoomIn product-miniature js-product-miniature"
+                                                 data-id-product="5" data-id-product-attribute="19" itemscope=""
+                                                  
+                                                 style=" animation-name: none;">
+                                                 <div class="thumbnail-container">
+                                                    <div class="left-block">
+                                                       <div class="product-image-container">
+                                                          <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/5-19-printed-summer-dress.html#/1-size-s/16-color-yellow"
+                                                             class="thumbnail product-thumbnail product_img_link">
+                                                          <img src="https://ets-demos.com/theme/digital17/54-large_default/printed-summer-dress.jpg"
+                                                             alt=""
+                                                             data-full-size-image-url="https://ets-demos.com/theme/digital17/54-large_default/printed-summer-dress.jpg"/><img
+                                                             class="fade replace-2x img-responsive ybc_img_hover"
+                                                             src="https://ets-demos.com/theme/digital17/54-large_default/printed-summer-dress(1).jpg"
+                                                             alt="Printed Summer Dress" itemprop="image"
+                                                             title="Printed Summer Dress"/>
+                                                          </a>
+                                                          <ul class="product-flags">
+                                                             <li class="product-discount">
+                                                                <span class="discount-percen">Sale</span>
+                                                             </li>
+                                                          </ul>
+                                                          <div class="button-container-product">
+                                                             <div class="highlighted-informations">
+                                                                <a title="Add to Wishlistyy"
+                                                                   class="wishlist addToWishlist wishlistProd_5"
+                                                                   href="https://ets-demos.com/theme/digital17/en/#"
+                                                                   data-rel="5"
+                                                                   onclick="WishlistCart(&#39;wishlist_block_list&#39;, &#39;add&#39;, &#39;5&#39;, false, 1); return false;"></a>
+                                                                <input type="hidden"
+                                                                   value="The product was successfully added to your wishlist."
+                                                                   class="wl_login"/>
+                                                                <input type="hidden"
+                                                                   value="You must be logged in to manage your wishlist."
+                                                                   class="wl_not_login"/>
+                                                                <script type="text/javascript">
+                                                                   var log_in = $('.wl_login').val();
+                                                                   var not_log_in = $('.wl_not_login').val();
+                                                                </script>
+                                                                <a href="https://ets-demos.com/theme/digital17/en/#"
+                                                                   class="quick-view"
+                                                                   data-link-action="quickview"
+                                                                   title="Quick view" data-toggle="tooltip">
+                                                                </a>
+                                                             </div>
+                                                          </div>
+                                                       </div>
+                                                    </div>
+                                                    <div class="right-block">
+                                                       <h4 class="h3 product-title" itemprop="name"><a
+                                                          href="https://ets-demos.com/theme/digital17/en/sony-bravia/5-19-printed-summer-dress.html#/1-size-s/16-color-yellow">Printed
+                                                          Summer Dress</a>
+                                                       </h4>
+                                                       <div class="product-price-and-shipping">
+                                                          <span itemprop="price" class="price product-price">$28.98</span>
+                                                          <span class="old-price product-price">$30.50</span>
+                                                       </div>
+                                                       <div class="hook-reviews">
+                                                          <div class="comments_note">
+                                                             <div class="star_content clearfix">
+                                                                <div class="star star_on"></div>
+                                                                <div class="star star_on"></div>
+                                                                <div class="star star_on"></div>
+                                                                <div class="star star_on"></div>
+                                                                <div class="star"></div>
+                                                             </div>
+                                                             <span class="count_star">4 Review(s) </span>
+                                                          </div>
+                                                       </div>
+                                                       <span class="price-percent-reduction ">Buy now to save -5%</span>
+                                                       <div class="short_description">
+                                                          <p>Long printed dress with
+                                                             thin adjustable straps. V-neckline and wiring under the
+                                                             bust with...
+                                                          </p>
+                                                       </div>
+                                                       <div class="">
+                                                          <div class="clearfix atc_div add_to_cart_button">
+                                                             <input name="qty" type="hidden"
+                                                                class="form-control atc_qty" value="1"
+                                                                onfocus="if(this.value == &#39;1&#39;) this.value = &#39;&#39;;"
+                                                                onblur="if(this.value == &#39;&#39;) this.value = &#39;1&#39;;"/>
+                                                             <button class="add_to_cart btn btn-primary btn-sm"
+                                                                onclick="mypresta_productListCart.add($(this));">
+                                                             <span>Add to cart</span>
+                                                             </button>
+                                                          </div>
+                                                       </div>
+                                                    </div>
+                                                    <!--<div class="image_item_product">
+                                                       </div>-->
+                                                 </div>
+                                              </article>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="owl-nav">
+                                        <div class="owl-prev disabled"></div>
+                                        <div class="owl-next"></div>
+                                     </div>
+                                     <div class="owl-dots disabled"></div>
+                                  </div>
+                               </section>
+                               <div class="bg-home">
+                                  <div class="ybc_countdown col-sm-4 col-md-3 col-lg-3">
+                                     <div id="ybc_specificprices">
+                                        <div class="ets-product-specific owl-loaded owl-drag">
+                                           <div class="owl-stage-outer">
+                                              <div class="owl-stage"
+                                                 style=" transition: all 0s ease 0s; width: 1890px;">
+                                                 <div class="owl-item active" style="width: 270px;">
+                                                    <article class="product-miniature js-product-miniature"
+                                                       data-id-product="1" data-id-product-attribute="1"
+                                                       itemscope=""  >
+                                                       <div class="thumbnail-container">
+                                                          <div class="countdown_content_wrapper">
+                                                             <p class="reduction_percent"><span
+                                                                class="reduction_percent_display">-10%</span>
+                                                             </p>
+                                                          </div>
+                                                          <div class="product_special_img">
+                                                             <a href="https://ets-demos.com/theme/digital17/en/sony-bravia/1-1-faded-short-sleeves-tshirt.html#/1-size-s/13-color-orange"
+                                                                class="thumbnail product-thumbnail">
+                                                             <img src="https://ets-demos.com/theme/digital17/38-large_default/faded-short-sleeves-tshirt.jpg"
+                                                                alt=""
+                                                                data-full-size-image-url="https://ets-demos.com/theme/digital17/38-large_default/faded-short-sleeves-tshirt.jpg"/><img
+                                                                class="fade replace-2x img-responsive ybc_img_hover"
+                                                                src="https://ets-demos.com/theme/digital17/38-large_default/faded-short-sleeves-tshirt(1).jpg"
+                                                                alt="Faded Short Sleeves T-shirt"
+                                                                itemprop="image"
+                                                                title="Faded Short Sleeves T-shirt"/>
+                                                             </a>
+                                                          </div>
+                                                          <h4 class="h4 product-title" itemprop="name"><a
+                                                             href="https://ets-demos.com/theme/digital17/en/sony-bravia/1-1-faded-short-sleeves-tshirt.html#/1-size-s/13-color-orange">Faded
+                                                             Short Sleeves T-shirt</a>
+                                                          </h4>
+                                                          <div id="ets_clock_1" data-id-product="1"
+                                                             data-date-to="2025-09-06 00:00:00"
+                                                             class="ets_clock active"><span class="ybc_cd_item">1709 <span
+                                                             class="number">days</span> </span> <span
+                                                             class="ybc_cd_item">7 <span
+                                                             class="number">hrs</span> </span> <span
+                                                             class="ybc_cd_item">54 <span
+                                                             class="number">mins</span> </span> <span
+                                                             class="ybc_cd_item">41 <span
+                                                             class="number">secs</span> </span></div>
+                                                       </div>
+                                                    </article>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                           <div class="owl-nav disabled">
+                                              <div class="owl-prev"></div>
+                                              <div class="owl-next"></div>
+                                           </div>
+                                           <div class="owl-dots disabled"></div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <div class="homeblog_wrapper col-sm-8 col-md-9 col-lg-9 custom_blog_half_width col-sm-12 col-md-6 col-lg-6">
+                                     <div class="block ybc_block_latest ybc_blog_ltr_mode page_home ybc_block_slider">
+                                        <h3 class="h1 products-section-title text-uppercase title-home4">
+                                           <span>Máy tính đồng bộ</span>
+                                        </h3>
+                                        <div class="block_content owl-loaded owl-drag">
+                                           <div class="owl-stage-outer">
+                                              <div class="owl-stage"
+                                                 style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1200px;">
+                                                 <div class="owl-item active"
+                                                    style="width: 270px; margin-right: 30px;">
+                                                    <div class="ybc_block_latest_item">
+                                                       <div class="ybc-blog-latest-img">
+                                                          <a class="ybc_item_img"
+                                                             href="https://ets-demos.com/theme/digital17/en/blog/post/7-lorem-ipsum-dolor-sit-amet.html">
+                                                          <img src="https://ets-demos.com/theme/digital17/modules/ybc_blog/views/img/post/thumb/9c710dab8de2f274546c572d054b5e2b2840ca53-smartwatch.jpg"
+                                                             alt="Lorem ipsum dolor sit amet"
+                                                             title="Lorem ipsum dolor sit amet"/>
+                                                          </a>
+                                                       </div>
+                                                       <div class="ybc-blog-latest-post-content">
+                                                          <a class="ybc_title_block"
+                                                             href="https://ets-demos.com/theme/digital17/en/blog/post/7-lorem-ipsum-dolor-sit-amet.html">
+                                                          Lorem ipsum dolor sit amet
+                                                          </a>
+                                                          <div class="ybc-blog-sidear-post-meta">
+                                                             <div class="ybc-blog-categories">
+                                                                <div class="be-categories">
+                                                                   <span class="be-label">Posted in: </span>
+                                                                   <a href="https://ets-demos.com/theme/digital17/en/blog/category/1-sample-category.html">Sample
+                                                                   category</a>
+                                                                </div>
+                                                             </div>
+                                                             <span class="post-date">October 30th 2017</span>
+                                                          </div>
+                                                          <div class="ybc-blog-latest-toolbar">
+                                                             <span class="ybc-blog-latest-toolbar-views">255                                                         <span>views</span></span>
+                                                             <span class="ybc-blog-latest-toolbar-comments">0                                                         <span>
+                                                             comments</span></span>
+                                                             <span title="Like this post"
+                                                                class="ybc-blog-like-span ybc-blog-like-span-7 "
+                                                                data-id-post="7">
+                                                             <span class="ben_7">0</span>
+                                                             <span class="blog-post-like-text blog-post-like-text-7">Liked</span>
+                                                             </span>
+                                                          </div>
+                                                          <div class="blog_description">
+                                                             <p>
+                                                                Lorem Ipsum is simply dummy text of the
+                                                                printing and typesetting industry. Lorem Ipsum has
+                                                                been the industry's...
+                                                             </p>
+                                                          </div>
+                                                          <a class="read_more"
+                                                             href="https://ets-demos.com/theme/digital17/en/blog/post/7-lorem-ipsum-dolor-sit-amet.html">Read
+                                                          more <i class="fa fa-angle-double-right"
+                                                             aria-hidden="true"></i></a>
+                                                       </div>
+                                                    </div>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                           <div class="owl-nav">
+                                              <div class="owl-prev disabled"></div>
+                                              <div class="owl-next"></div>
+                                           </div>
+                                           <div class="owl-dots disabled"></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                     </div>
+                                  </div>
+                               </div>
+                               <div id="ybc-mnf-block" class="col-md-12 col-xs-12">
+                                  <h4 class="h1 products-section-title text-uppercase title-home5"><span>Tin tức mới</span>
+                                  </h4>
+                                  <ul id="ybc-mnf-block-ul" class="owl-loaded owl-drag">
+                                     <div class="owl-stage-outer">
+                                        <div class="owl-stage"
+                                           style="transform: translate3d(-1200px, 0px, 0px); transition: all 0s ease 0s; width: 3600px;">
+                                           <div class="owl-item cloned" style="width: 210px; margin-right: 30px;">
+                                              <li class="ybc-mnf-block-li">
+                                                 <a class="ybc-mnf-block-a-img"
+                                                    href="https://ets-demos.com/theme/digital17/en/1_item-1"><img
+                                                    src="./index_files/1.jpg" alt=""/></a>
+                                              </li>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="owl-nav disabled">
+                                        <div class="owl-prev"></div>
+                                        <div class="owl-next"></div>
+                                     </div>
+                                     <div class="owl-dots disabled"></div>
+                                  </ul>
+                               </div>
+                            </section>
+                            <footer class="page-footer">
+                               <!-- Footer content -->
+                            </footer>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>
