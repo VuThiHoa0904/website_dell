@@ -187,7 +187,7 @@
                                                             title="fb:page Facebook Social Plugin" frameborder="0"
                                                             allowtransparency="true" allowfullscreen="true"
                                                             scrolling="no"
-                                                            allow="encrypted-media" src="./index_files/page.html"
+                                                            allow="encrypted-media" src="page.html"
                                                             style="border: none; visibility: visible; width: 270px; height: 265px;"
                                                             class=""></iframe>
                                                 </span>
@@ -508,7 +508,7 @@
                                                     <div class="ybc-theme-panel-loading-setting">
                                                         <h2>
                                                             <img alt="Loading" class="ybc-theme-panel-loading-logo"
-                                                                 src="./index_files/loading.gif"/>
+                                                                 src="https://ets-demos.com/theme/digital17/38-large_default/faded-short-sleeves-tshirt(1).jpg"/>
                                                             <br/>
                                                             <span>Updating...</span>
                                                         </h2>
@@ -604,11 +604,11 @@
                             <div class="payment_footer">
                                 <span class="hidden-xs">Our payment methods:</span>
                                 <div class="payment_item">
-                                    <img src="./index_files/paymentlogos1.png" alt="Payment methods"
+                                    <img src="https://ets-demos.com/theme/digital17/38-large_default/faded-short-sleeves-tshirt(1).jpg" alt="Payment methods"
                                          title="Payment methods"/>
                                 </div>
                                 <div class="payment_item">
-                                    <img src="./index_files/73e1dd3f78486a8a1884c241d9a9a5e4bb7f2b98.png"
+                                    <img src="https://ets-demos.com/theme/digital17/38-large_default/faded-short-sleeves-tshirt(1).jpg"
                                          alt="Payment methods"
                                          title="Payment methods"/>
                                 </div>
@@ -719,7 +719,7 @@
                                 </div>
                                 <div class="col-sm-6 mobie_none">
                                     <div class="before_right">
-                                        <img src="./index_files/d485fa3bc0fce31b2bef2ef89ebbf76da6aa264e.png"
+                                        <img src="https://ets-demos.com/theme/digital17/38-large_default/faded-short-sleeves-tshirt(1).jpg"
                                              alt="Ssl image"
                                              title="ssl image"/>
                                         <div class="content_ssl">

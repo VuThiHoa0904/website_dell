@@ -1,17 +1,19 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-        <template id="assets_frontend" inherit_id="portal.assets_frontend" name="Website Assets">
-            <xpath expr="//link[last()]" position="after">
+        <template id="assets_frontend" inherit_id="web.assets_frontend" name="Website Assets">
+            <xpath expr="//link[last()]" position="inside">
                 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
                 <link rel="stylesheet" type="text/scss" href="/website_dell/static/src/scss/user_custom_css.scss"/>
                 <link rel="stylesheet" type="text/scss" href="/website_dell/static/src/scss/theme-105971.css"/>
-                <script type="text/javascript" src="/website_dell/static/src/js/user_custom_js.js"/>
+            </xpath>
+             <xpath expr="//script[last()]" position="inside">
+                 <script type="text/javascript" src="/website_dell/static/src/js/user_custom_js.js"/>
                 <script src="/website_dell/static/src/js/sdk.js" async="" crossorigin="anonymous"></script>
                 <script type="text/javascript" src="/website_dell/static/src/js/sdk(1).js"/>
                 <script type="text/javascript" async="" src="/website_dell/static/src/js/fb.js"></script>
 <!--                <script type="text/javascript" async="" src="/website_dell/static/src/js/bottom-fd60bf.js"></script>-->
-            </xpath>
+             </xpath>
         </template>
         <template id="top_menu_inherit" inherit_id="website.layout" name="Fixed main menu">
             <xpath expr="//header" position="after">
