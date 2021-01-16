@@ -29,9 +29,10 @@
         'security/group_user.xml',
         'security/ir.model.access.csv',
         'browser/menu.xml',
-        'browser/home.xml',
-        'browser/footer.xml',
+        # 'browser/home.xml',
+        # 'browser/footer.xml',
         'views/banner_view.xml',
+        'views/product_inherit.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

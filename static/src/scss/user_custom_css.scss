@@ -15281,7 +15281,7 @@ body#checkout #gift_message {
     left: 14%;
     position: absolute;
     top: 50%;
-    width: 80%;
+    width: 82%;
     z-index: 1;
 }
 .title-home2::before {
@@ -15291,7 +15291,7 @@ body#checkout #gift_message {
     left: 14%;
     position: absolute;
     top: 50%;
-    width: 80%;
+    width: 82%;
     z-index: 1;
 }
 .title-home3::before {
@@ -15301,7 +15301,7 @@ body#checkout #gift_message {
     left: 19%;
     position: absolute;
     top: 50%;
-    width: 75%;
+    width: 77%;
     z-index: 1;
 }
 .title-home4::before {
@@ -15311,7 +15311,7 @@ body#checkout #gift_message {
     left: 25%;
     position: absolute;
     top: 50%;
-    width: 67%;
+    width: 69%;
     z-index: 1;
 }
 .title-home5::before {
@@ -15321,7 +15321,7 @@ body#checkout #gift_message {
     left: 12%;
     position: absolute;
     top: 50%;
-    width: 82%;
+    width: 84%;
     z-index: 1;
 }
 
@@ -15356,12 +15356,13 @@ body#checkout #gift_message {
     margin-bottom: 0;
     text-align: center;
     text-transform: none;
-    font-weight: 400;
+    font-weight: 700;
     float: left;
     font-size: 14px;
     overflow: hidden;
-    text-transform: uppercase;
-    width: 100%
+    /* text-transform: uppercase; */
+    width: 100%;
+    padding: 0 10px;
 }
 
 .product-description .hook-reviews {
@@ -15387,7 +15388,7 @@ body#index .products-section-title span {
 }
 
 .price.product-price {
-    color: #000;
+    color: #f9b000;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0;
@@ -21626,7 +21627,7 @@ _desktop_language_selector ul li {
     height: 0;
     left: auto;
     position: absolute;
-    right: 15px;
+    right: -13px;
     top: -2px;
     width: 80px;
     z-index: 2;

@@ -5,8 +5,8 @@
             <xpath expr="//div[@id='wrap']" position="attributes">
                 <attribute name="class">maincontent_v1</attribute>
             </xpath>
-            <xpath expr="//div[@id='wrap']" position="inside">
-                <div class="ets_multilayerslider   home12" style="height: 478.646px;">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                <div class="ets_multilayerslider home12" style="height: 478.646px;">
                         <div class="mls_slides" style="transform: scale(0.957292);">
                             <div data-max-slide-time="7700"
                                  class="mls_slider mls_slider_type_full mls_layout_ltr mls_running mls_moving_in"

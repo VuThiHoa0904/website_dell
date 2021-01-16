@@ -1,7 +1,5 @@
-odoo.define('website.user_custom_code', function (require) {
+odoo.define('webpopsite.user_custom_code', function (require) {
 'use strict';
-
-
     $(function() {
         if ($('.ets_mm_megamenu.sticky_enabled').length > 0) {
             var sticky_navigation_offset_top = $('.ets_mm_megamenu.sticky_enabled').offset().top;
@@ -108,6 +106,7 @@ odoo.define('website.user_custom_code', function (require) {
             $('.mm_breaker').prev('li').addClass('mm_before_breaker')
         }
     });
+
     $(function() {
         if ($('.header_bottom.ybc_float_header').length > 0) {
             if ($('#header.layout_2').length > 0 || ('#header.layout_3').length > 0) {
