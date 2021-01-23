@@ -9865,7 +9865,6 @@
             })
         }
     });
-
     function ScaleSlider() {
         var ratio = $('.mls_slides').width() / width_slider;
         var height = ratio * height_slider;

@@ -22,7 +22,9 @@
     # any module necessary for this one to work correctly
     'depends': ['base',
                 'website',
-                'website_sale'],
+                'sale',
+                'website_sale',
+                'website_sale_comparison'],
 
     # always loaded
     'data': [
@@ -33,6 +35,11 @@
         # 'browser/footer.xml',
         'views/banner_view.xml',
         'views/product_inherit.xml',
+        'browser/add_to_cart.xml',
+        'browser/product_detail.xml',
+        # "views/assets.xml",
+        "views/templates.xml",
+        "views/website_sale_attribute_filter_category_view.xml",
     ],
     # only loaded in demonstration mode
     'demo': [

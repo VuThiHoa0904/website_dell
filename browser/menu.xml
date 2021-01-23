@@ -1,20 +1,56 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-        <template id="assets_frontend" inherit_id="web.assets_frontend" name="Website Assets">
-            <xpath expr="//link[last()]" position="inside">
-                <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <template id="assets_frontend" inherit_id="website.assets_frontend" name="Website Assets">
+            <xpath expr=".">
+                <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+                      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+                      crossorigin="anonymous"/>
                 <link rel="stylesheet" type="text/scss" href="/website_dell/static/src/scss/user_custom_css.scss"/>
-<!--                <link rel="stylesheet" type="text/scss" href="/website_dell/static/src/scss/theme-105971.css"/>-->
-            </xpath>
-             <xpath expr="//script[last()]" position="inside">
                 <script type="text/javascript" src="/website_dell/static/src/js/user_custom_js.js"/>
                 <script src="/website_dell/static/src/js/sdk.js" async="" crossorigin="anonymous"></script>
-<!--                <script type="text/javascript" src="/website_dell/static/src/js/sdk(1).js"/>-->
-<!--                <script type="text/javascript" async="" src="/website_dell/static/src/js/fb.js"></script>-->
-<!--                <script type="text/javascript" async="" src="/website_dell/static/src/js/bottom-fd60bf.js"></script>-->
-             </xpath>
+                <script type="text/javascript" src="/website_dell/static/src/js/website_sale_attribute_filter_category_tour.js"/>
+                <link type="text/css" rel="stylesheet" href="/website_dell/static/src/scss/website_sale_attribute_filter_category.scss"/>
+            </xpath>
         </template>
+        <!--        <template id="assets_frontend" inherit_id="web.assets_frontend" name="Website Assets">-->
+        <!--            <xpath expr="//link[last()]" position="inside">-->
+        <!--                <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>-->
+        <!--                <link rel="stylesheet" type="text/scss" href="/website_dell/static/src/scss/user_custom_css.scss"/>-->
+        <!--                <script type="text/javascript" src="/website_dell/static/src/js/user_custom_js.js"/>-->
+        <!--            </xpath>-->
+        <!--             <xpath expr="//script[last()]" position="inside">-->
+
+        <!--                <script src="/website_dell/static/src/js/sdk.js" async="" crossorigin="anonymous"></script>-->
+        <!--                <script type="text/javascript" src="/website_dell/static/src/js/sdk(1).js"/>-->
+        <!--                <script type="text/javascript" async="" src="/website_dell/static/src/js/fb.js"></script>-->
+        <!--                <script type="text/javascript" async="" src="/website_dell/static/src/js/bottom-fd60bf.js"></script>-->
+        <!--                    <script type="text/javascript">-->
+        <!--                        var a = document.getElementsByClassName('tablinks');-->
+        <!--                        var contents = document.getElementsByClassName('tab-pane');-->
+
+        <!--                        function showContent(id){-->
+        <!--                            for (var i = 0; i &lt; contents.length; i++) {-->
+        <!--                                contents[i].css("display","none");-->
+        <!--                            }-->
+        <!--                            var content = document.getElementById(id);-->
+        <!--                            content.css("display","block");-->
+        <!--                        }-->
+        <!--                        for (var i = 0; i &lt; a.length; i++) {-->
+        <!--                            a[i].addEventListener("click", function(){-->
+        <!--                                var id = this.textContent;-->
+        <!--                                for (var i = 0; i &lt; buttons.length; i++) {-->
+        <!--                                    a[i].classList.remove("active");-->
+        <!--                                }-->
+        <!--                                this.className += " active";-->
+        <!--                                showContent(id);-->
+        <!--                            });-->
+        <!--                        }-->
+        <!--                        console.log(showContent('description'));-->
+        <!--                        showContent('description');-->
+        <!--                    </script>-->
+        <!--             </xpath>-->
+        <!--        </template>-->
         <template id="top_menu_inherit" inherit_id="website.layout" name="Fixed main menu">
             <xpath expr="//header" position="after">
                 <header id="header" class="header_v1">
@@ -30,7 +66,7 @@
                                     <div>
                                         <div class="contact_link_item">
                                             <span class="icon_svg" style="background-color:red;">
-                                               <i class="fa fa-volume-control-phone"></i>
+                                                <i class="fa fa-volume-control-phone"></i>
                                             </span>
                                             <a href="tel:0123456789">
                                                 <b>Liên hệ ngay</b>
@@ -47,7 +83,9 @@
                                 <div class="row">
                                     <div class="hidden-sm-down" id="_desktop_logo">
                                         <a href="#">
-                                            <img class="logo img-responsive" t-attf-src="data:image/*;base64,{{website.logo}}" alt="Digital 17" style="width:191px; height: 49px"/>
+                                            <img class="logo img-responsive"
+                                                 t-attf-src="data:image/*;base64,{{website.logo}}" alt="Digital 17"
+                                                 style="width:191px; height: 49px"/>
                                         </a>
                                     </div>
                                     <ul class="ybc-widget-ybc-custom-4">
@@ -82,7 +120,10 @@
                                     <div class="_desktop_contact_link">
                                         <div>
                                             <div class="contact_link_item">
-                                                <span class="icon_svg"><i class="fa fa-volume-control-phone" style="font-size: 40px; color: #F9B002; transform: rotate(-45deg);"></i></span>
+                                                <span class="icon_svg">
+                                                    <i class="fa fa-volume-control-phone"
+                                                       style="font-size: 40px; color: #F9B002; transform: rotate(-45deg);"></i>
+                                                </span>
                                                 <a href="tel:0123456789" style="color: #F9B002;">
                                                     <b>Call us now</b>
                                                     <br/>0123-456-789
@@ -132,1015 +173,49 @@
                                                                             Back
                                                                         </div>
                                                                     </li>
-                                                                     <t t-foreach="cates" t-as="cate">
+                                                                    <t t-foreach="cates" t-as="cate">
                                                                         <li class="item_lv1 mm_menus_li television mm_sub_align_full mm_has_sub">
-                                                                        <a href="#">
-                                                                            <i class="fa fa-television"
-                                                                               aria-hidden="true"></i>
-                                                                            <span class="item_content"><t t-esc="cate.name"/></span>
-                                                                        </a>
-                                                                        <span class="arrow closed"></span>
-                                                                        <ul class="mm_columns_ul" style="width:100%;">
-                                                                            <li class="mm_columns_li column_size_3  mm_has_sub">
-                                                                                <ul class="mm_blocks_ul">
-                                                                                    <li data-id-block="7"
-                                                                                        class="mm_blocks_li">
+                                                                            <a href="#">
+                                                                                <img t-attf-src="data:image/*;base64,{{cate.image_128}}"
+                                                                                     width="10%" height="auto"/>
+                                                                                <span class="item_content">
+                                                                                    <t t-esc="cate.name"/>
+                                                                                </span>
+                                                                            </a>
+                                                                            <span class="arrow closed"></span>
+                                                                            <ul class="mm_columns_ul"
+                                                                                style="width:100%;">
+                                                                                <t t-foreach="cate.child_id" t-as="cat">
+                                                                                    <li class="mm_columns_li column_size_3  mm_has_sub">
+                                                                                        <ul class="mm_blocks_ul">
+                                                                                            <li data-id-block="7"
+                                                                                                class="mm_blocks_li">
 
-                                                                                        <div class="ets_mm_block mm_block_type_category ">
-                                                                                            <h4>SamSung</h4>
-                                                                                            <div class="ets_mm_block_content">
-                                                                                                <ul class="ets_mm_categories">
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Blouses
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                </ul>
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                            <li class="mm_columns_li column_size_3  mm_has_sub">
-                                                                                <ul class="mm_blocks_ul">
-                                                                                    <li data-id-block="8"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_category ">
-                                                                                            <h4>Toshiba</h4>
-                                                                                            <div class="ets_mm_block_content">
-                                                                                                <ul class="ets_mm_categories">
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Blouses
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                </ul>
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                            <li class="mm_columns_li column_size_3  mm_has_sub">
-                                                                                <ul class="mm_blocks_ul">
-                                                                                    <li data-id-block="9"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_category ">
-                                                                                            <h4>Sony Bravia</h4>
-                                                                                            <div class="ets_mm_block_content">
-                                                                                                <ul class="ets_mm_categories">
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Blouses
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                </ul>
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                            <li class="mm_columns_li column_size_3  mm_has_sub">
-                                                                                <ul class="mm_blocks_ul">
-                                                                                    <li data-id-block="10"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_image mm_hide_title">
-                                                                                            <h4>
-                                                                                                <a href="#">
-                                                                                                    Lorem
-                                                                                                    ipsum
-                                                                                                </a>
-                                                                                            </h4>
-                                                                                            <div class="ets_mm_block_content">
-                                                                                                <a href="#">
-                                                                                                    <img src="" alt="Lorem ipsum"/>
-                                                                                                </a>
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-
-                                                                    </li>
-                                                                     </t>
-                                                                    <li class="item_lv1 mm_menus_li sale_bubble laptop mm_sub_align_full mm_has_sub">
-                                                                        <a href="#">
-                                                                            <i class="fa fa-laptop"
-                                                                               aria-hidden="true"></i>
-                                                                            <span
-                                                                                    class="item_content">laptops
-                                                                            </span>
-                                                                            <span class="mm_bubble_text"
-                                                                                  style="background: #FC4444; color: #ffffff;">
-                                                                                Sale
-                                                                            </span>
-                                                                        </a>
-                                                                        <span class="arrow closed"></span>
-                                                                        <ul class="mm_columns_ul" style="width:100%;">
-                                                                            <li class="mm_columns_li column_size_3  mm_has_sub">
-                                                                                <ul class="mm_blocks_ul">
-                                                                                    <li data-id-block="11"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_category ">
-                                                                                            <h4>Ddipiscing</h4>
-                                                                                            <div class="ets_mm_block_content">
-                                                                                                <ul class="ets_mm_categories">
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Blouses
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Casual
-                                                                                                            Dresses
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Evening
-                                                                                                            Dresses
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            T-shirts
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Tops
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                </ul>
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                            <li class="mm_columns_li column_size_4  mm_has_sub">
-                                                                                <ul class="mm_blocks_ul">
-                                                                                    <li data-id-block="12"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_product mm_hide_title">
-                                                                                            <h4>Lorem ipsum dolor</h4>
-                                                                                            <div class="ets_mm_block_content">
-
-                                                                                                <article
-                                                                                                        class="product-miniature js-product-miniature"
-                                                                                                        data-id-product="1"
-                                                                                                        data-id-product-attribute="1"
-                                                                                                        itemscope="">
-                                                                                                    <div class="thumbnail-container">
-                                                                                                        <a href="#"
-                                                                                                           class="thumbnail product-thumbnail">
-                                                                                                            <img src="#" alt="" data-full-size-image-url="#"/>
-                                                                                                            <img class="fade replace-2x img-responsive ybc_img_hover"
-                                                                                                                    src="#"
-                                                                                                                    alt="Faded Short Sleeves T-shirt"
-                                                                                                                    itemprop="image"
-                                                                                                                    title="Faded Short Sleeves T-shirt"/>
-                                                                                                        </a>
-
-                                                                                                        <div class="product-description">
-
-                                                                                                            <h3 class="h3 product-title"
-                                                                                                                itemprop="name">
+                                                                                                <div class="ets_mm_block mm_block_type_category ">
+                                                                                                    <h4>
+                                                                                                        <t t-esc="cat.name"/>
+                                                                                                    </h4>
+                                                                                                    <div class="ets_mm_block_content">
+                                                                                                        <ul class="ets_mm_categories">
+                                                                                                            <li>
                                                                                                                 <a href="#">
-                                                                                                                    Faded
-                                                                                                                    Short
-                                                                                                                    Sleeves
-                                                                                                                    T-shirt
+                                                                                                                    <img t-attf-src="data:image/*;base64,{{cat.image_128}}"
+                                                                                                                         width="50%"
+                                                                                                                         height="auto"/>
                                                                                                                 </a>
-                                                                                                            </h3>
-                                                                                                            <div class="product-price-and-shipping">
-                                                                                                                <span itemprop="price"
-                                                                                                                      class="price">
-                                                                                                                    $14.86
-                                                                                                                </span>
-                                                                                                                <span class="regular-price">
-                                                                                                                    $16.51
-                                                                                                                </span>
-                                                                                                                <span class="discount-percentage"
-                                                                                                                      style="top: -32px;">
-                                                                                                                    -10%
-                                                                                                                </span>
-
-
-                                                                                                            </div>
-
-                                                                                                            <div class="mm_short_description">
-                                                                                                                <p>Faded
-                                                                                                                    short
-                                                                                                                    sleeves
-                                                                                                                    t-shirt...
-                                                                                                                </p>
-                                                                                                            </div>
-                                                                                                        </div>
-
-                                                                                                        <ul class="product-flags">
-                                                                                                            <li class="discount">
-                                                                                                                Reduced
-                                                                                                                price
                                                                                                             </li>
                                                                                                         </ul>
-
-                                                                                                        <div class="highlighted-informations hidden-sm-down">
-                                                                                                            <a href="#"
-                                                                                                               class="quick-view"
-                                                                                                               data-link-action="quickview">
-                                                                                                                <i class="material-icons search">
-                                                                                                                    search
-                                                                                                                </i>
-                                                                                                                Quick
-                                                                                                                view
-                                                                                                            </a>
-
-                                                                                                            <div class="variant-links">
-                                                                                                                <a href="#"
-                                                                                                                   class="color"
-                                                                                                                   title="Orange"
-                                                                                                                   style="background-color: #F39C11">
-                                                                                                                    <span
-                                                                                                                            class="sr-only">
-                                                                                                                        Orange
-                                                                                                                    </span>
-                                                                                                                </a>
-                                                                                                                <a href="#"
-                                                                                                                   class="color"
-                                                                                                                   title="Blue"
-                                                                                                                   style="background-color: #5D9CEC">
-                                                                                                                    <span
-                                                                                                                            class="sr-only">
-                                                                                                                        Blue
-                                                                                                                    </span>
-                                                                                                                </a>
-                                                                                                                <span class="js-count count"></span>
-                                                                                                            </div>
-
-                                                                                                        </div>
-
                                                                                                     </div>
-                                                                                                </article>
+                                                                                                </div>
 
-                                                                                            </div>
-                                                                                        </div>
-
+                                                                                            </li>
+                                                                                        </ul>
                                                                                     </li>
-                                                                                    <li data-id-block="13"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_product mm_hide_title">
-                                                                                            <h4>Lorem ipsum dolor</h4>
-                                                                                            <div class="ets_mm_block_content">
-                                                                                                <article
-                                                                                                        class="product-miniature js-product-miniature"
-                                                                                                        data-id-product="2"
-                                                                                                        data-id-product-attribute="7"
-                                                                                                        itemscope="">
-                                                                                                    <div class="thumbnail-container">
-
-                                                                                                        <a href="#"
-                                                                                                           class="thumbnail product-thumbnail">
-                                                                                                            <img src="#"
-                                                                                                                 alt=""
-                                                                                                                 data-full-size-image-url="#"/>
-                                                                                                            <img class="fade replace-2x img-responsive ybc_img_hover"
-                                                                                                                    src="#"
-                                                                                                                    alt="Blouse"
-                                                                                                                    itemprop="image"
-                                                                                                                    title="Blouse"/>
-                                                                                                        </a>
-
-                                                                                                        <div class="product-description">
-
-                                                                                                            <h3 class="h3 product-title"
-                                                                                                                itemprop="name">
-                                                                                                                <a
-                                                                                                                        href="#">
-                                                                                                                    Blouse
-                                                                                                                </a>
-                                                                                                            </h3>
-
-
-                                                                                                            <div class="product-price-and-shipping">
-
-
-                                                                                                                <span itemprop="price"
-                                                                                                                      class="price">
-                                                                                                                    $24.29
-                                                                                                                </span>
-
-
-                                                                                                                <span class="regular-price">
-                                                                                                                    $26.99
-                                                                                                                </span>
-                                                                                                                <span class="discount-percentage"
-                                                                                                                      style="top: -32px;">
-                                                                                                                    -10%
-                                                                                                                </span>
-
-
-                                                                                                            </div>
-
-                                                                                                            <div class="mm_short_description">
-                                                                                                                <p>
-                                                                                                                    Short-sleeved
-                                                                                                                    blouse
-                                                                                                                    with...
-                                                                                                                </p>
-                                                                                                            </div>
-                                                                                                        </div>
-
-                                                                                                        <ul class="product-flags">
-                                                                                                            <li class="discount">
-                                                                                                                Reduced
-                                                                                                                price
-                                                                                                            </li>
-                                                                                                        </ul>
-
-                                                                                                        <div class="highlighted-informations hidden-sm-down">
-                                                                                                            <a href="#"
-                                                                                                               class="quick-view"
-                                                                                                               data-link-action="quickview">
-                                                                                                                <i class="material-icons search">
-                                                                                                                    search
-                                                                                                                </i>
-                                                                                                                Quick
-                                                                                                                view
-                                                                                                            </a>
-
-                                                                                                            <div class="variant-links">
-                                                                                                                <a href="#"
-                                                                                                                   class="color"
-                                                                                                                   title="White"
-                                                                                                                   style="background-color: #ffffff">
-                                                                                                                    <span
-                                                                                                                            class="sr-only">
-                                                                                                                        White
-                                                                                                                    </span>
-                                                                                                                </a>
-                                                                                                                <a href="#"
-                                                                                                                   class="color"
-                                                                                                                   title="Black"
-                                                                                                                   style="background-color: #434A54">
-                                                                                                                    <span
-                                                                                                                            class="sr-only">
-                                                                                                                        Black
-                                                                                                                    </span>
-                                                                                                                </a>
-                                                                                                                <span class="js-count count"></span>
-                                                                                                            </div>
-
-                                                                                                        </div>
-
-                                                                                                    </div>
-                                                                                                </article>
-
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                            <li class="mm_columns_li column_size_4  mm_has_sub">
-                                                                                <ul class="mm_blocks_ul">
-                                                                                    <li data-id-block="14"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_product mm_hide_title">
-                                                                                            <h4>Lorem ipsum dolor</h4>
-                                                                                            <div class="ets_mm_block_content">
-
-                                                                                                <article
-                                                                                                        class="product-miniature js-product-miniature"
-                                                                                                        data-id-product="3"
-                                                                                                        data-id-product-attribute="13"
-                                                                                                        itemscope="">
-                                                                                                    <div class="thumbnail-container">
-
-                                                                                                        <a href=""
-                                                                                                           class="thumbnail product-thumbnail">
-                                                                                                            <img src=""
-                                                                                                                 alt=""
-                                                                                                                 data-full-size-image-url=""/>
-                                                                                                            <img class="fade replace-2x img-responsive ybc_img_hover"
-                                                                                                                    src=""
-                                                                                                                    alt="Printed Dress"
-                                                                                                                    itemprop="image"
-                                                                                                                    title="Printed Dress"/>
-                                                                                                        </a>
-
-                                                                                                        <div class="product-description">
-
-                                                                                                            <h3 class="h3 product-title"
-                                                                                                                itemprop="name">
-                                                                                                                <a
-                                                                                                                        href="">
-                                                                                                                    Printed
-                                                                                                                    Dress
-                                                                                                                </a>
-                                                                                                            </h3>
-
-
-                                                                                                            <div class="product-price-and-shipping">
-
-
-                                                                                                                <span itemprop="price"
-                                                                                                                      class="price">
-                                                                                                                    $25.47
-                                                                                                                </span>
-
-
-                                                                                                                <span class="regular-price">
-                                                                                                                    $25.99
-                                                                                                                </span>
-                                                                                                                <span class="discount-percentage"
-                                                                                                                      style="top: -32px;">
-                                                                                                                    -2%
-                                                                                                                </span>
-
-
-                                                                                                            </div>
-
-                                                                                                            <div class="mm_short_description">
-                                                                                                                <p>100%
-                                                                                                                    cotton
-                                                                                                                    double
-                                                                                                                    printed...
-                                                                                                                </p>
-                                                                                                            </div>
-                                                                                                        </div>
-
-                                                                                                        <ul class="product-flags">
-                                                                                                            <li class="discount">
-                                                                                                                Reduced
-                                                                                                                price
-                                                                                                            </li>
-                                                                                                        </ul>
-
-                                                                                                        <div class="highlighted-informations hidden-sm-down">
-                                                                                                            <a href="#"
-                                                                                                               class="quick-view"
-                                                                                                               data-link-action="quickview">
-                                                                                                                <i class="material-icons search">
-                                                                                                                    search
-                                                                                                                </i>
-                                                                                                                Quick
-                                                                                                                view
-                                                                                                            </a>
-
-                                                                                                            <div class="variant-links">
-                                                                                                                <a href="#"
-                                                                                                                   class="color"
-                                                                                                                   title="Orange"
-                                                                                                                   style="background-color: #F39C11">
-                                                                                                                    <span
-                                                                                                                            class="sr-only">
-                                                                                                                        Orange
-                                                                                                                    </span>
-                                                                                                                </a>
-                                                                                                                <span class="js-count count"></span>
-                                                                                                            </div>
-
-                                                                                                        </div>
-
-                                                                                                    </div>
-                                                                                                </article>
-
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                    <li data-id-block="15"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_product mm_hide_title">
-                                                                                            <h4>Lorem ipsum dolor</h4>
-                                                                                            <div class="ets_mm_block_content">
-
-                                                                                                <article
-                                                                                                        class="product-miniature js-product-miniature"
-                                                                                                        data-id-product="4"
-                                                                                                        data-id-product-attribute="16"
-                                                                                                        itemscope="">
-                                                                                                    <div class="thumbnail-container">
-
-                                                                                                        <a href="#"
-                                                                                                           class="thumbnail product-thumbnail">
-                                                                                                            <img src=""
-                                                                                                                 alt=""
-                                                                                                                 data-full-size-image-url=""/>
-                                                                                                            <img class="fade replace-2x img-responsive ybc_img_hover"
-                                                                                                                    src=""
-                                                                                                                    alt="Printed Dress"
-                                                                                                                    itemprop="image"
-                                                                                                                    title="Printed Dress"/>
-                                                                                                        </a>
-
-                                                                                                        <div class="product-description">
-
-                                                                                                            <h3 class="h3 product-title"
-                                                                                                                itemprop="name">
-                                                                                                                <a
-                                                                                                                        href="#">
-                                                                                                                    Printed
-                                                                                                                    Dress
-                                                                                                                </a>
-                                                                                                            </h3>
-
-
-                                                                                                            <div class="product-price-and-shipping">
-
-
-                                                                                                                <span itemprop="price"
-                                                                                                                      class="price">
-                                                                                                                    $50.99
-                                                                                                                </span>
-
-
-                                                                                                            </div>
-
-                                                                                                            <div class="mm_short_description">
-                                                                                                                <p>
-                                                                                                                    Printed
-                                                                                                                    evening
-                                                                                                                    dress
-                                                                                                                    with...
-                                                                                                                </p>
-                                                                                                            </div>
-                                                                                                        </div>
-
-                                                                                                        <ul class="product-flags">
-                                                                                                        </ul>
-
-                                                                                                        <div class="highlighted-informations hidden-sm-down">
-                                                                                                            <a href="#"
-                                                                                                               class="quick-view"
-                                                                                                               data-link-action="quickview">
-                                                                                                                <i class="material-icons search">
-                                                                                                                    search
-                                                                                                                </i>
-                                                                                                                Quick
-                                                                                                                view
-                                                                                                            </a>
-
-                                                                                                            <div class="variant-links">
-                                                                                                                <a href="#"
-                                                                                                                   class="color"
-                                                                                                                   title="Beige"
-                                                                                                                   style="background-color: #f5f5dc">
-                                                                                                                    <span
-                                                                                                                            class="sr-only">
-                                                                                                                        Beige
-                                                                                                                    </span>
-                                                                                                                </a>
-                                                                                                                <a href="#"
-                                                                                                                   class="color"
-                                                                                                                   title="Pink"
-                                                                                                                   style="background-color: #FCCACD">
-                                                                                                                    <span
-                                                                                                                            class="sr-only">
-                                                                                                                        Pink
-                                                                                                                    </span>
-                                                                                                                </a>
-                                                                                                                <span class="js-count count"></span>
-                                                                                                            </div>
-
-                                                                                                        </div>
-
-                                                                                                    </div>
-                                                                                                </article>
-
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-
-                                                                    </li>
-                                                                    <li class="item_lv1 mm_menus_li new_bubble compute mm_sub_align_full mm_has_sub">
-                                                                        <a href="#">
-                                                                            <i class="fa fa-desktop"
-                                                                               aria-hidden="true"></i>
-                                                                            <span
-                                                                                    class="item_content">PC computers
-                                                                            </span>
-                                                                            <span class="mm_bubble_text"
-                                                                                  style="background: #FC4444; color: #ffffff;">
-                                                                                New
-                                                                            </span>
-                                                                        </a>
-                                                                        <span class="arrow closed"></span>
-                                                                        <ul class="mm_columns_ul" style="width:100%;">
-                                                                            <li class="mm_columns_li column_size_3  mm_has_sub">
-                                                                                <ul class="mm_blocks_ul">
-                                                                                    <li data-id-block="16"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_category ">
-                                                                                            <h4>Adipiscing</h4>
-                                                                                            <div class="ets_mm_block_content">
-                                                                                                <ul class="ets_mm_categories">
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Blouses
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Casual
-                                                                                                            Dresses
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Evening
-                                                                                                            Dresses
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            T-shirts
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Tops
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                </ul>
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                            <li class="mm_columns_li column_size_3  mm_has_sub">
-                                                                                <ul class="mm_blocks_ul">
-                                                                                    <li data-id-block="17"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_category ">
-                                                                                            <h4>Adipiscing</h4>
-                                                                                            <div class="ets_mm_block_content">
-                                                                                                <ul class="ets_mm_categories">
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Blouses
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                </ul>
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                            <li class="mm_columns_li column_size_3  mm_has_sub">
-                                                                                <ul class="mm_blocks_ul">
-                                                                                    <li data-id-block="18"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_product ">
-                                                                                            <h4>Hot Deals</h4>
-                                                                                            <div class="ets_mm_block_content">
-
-                                                                                                <article
-                                                                                                        class="product-miniature js-product-miniature"
-                                                                                                        data-id-product="1"
-                                                                                                        data-id-product-attribute="1"
-                                                                                                        itemscope="">
-                                                                                                    <div class="thumbnail-container">
-
-                                                                                                        <a href="#"
-                                                                                                           class="thumbnail product-thumbnail">
-                                                                                                            <img src=""
-                                                                                                                 alt=""
-                                                                                                                 data-full-size-image-url=""/>
-                                                                                                            <img class="fade replace-2x img-responsive ybc_img_hover"
-                                                                                                                    src=""
-                                                                                                                    alt="Faded Short Sleeves T-shirt"
-                                                                                                                    itemprop="image"
-                                                                                                                    title="Faded Short Sleeves T-shirt"/>
-                                                                                                        </a>
-
-                                                                                                        <div class="product-description">
-
-                                                                                                            <h3 class="h3 product-title"
-                                                                                                                itemprop="name">
-                                                                                                                <a href="#">
-                                                                                                                    Faded
-                                                                                                                    Short
-                                                                                                                    Sleeves
-                                                                                                                    T-shirt
-                                                                                                                </a>
-                                                                                                            </h3>
-
-
-                                                                                                            <div class="product-price-and-shipping">
-
-
-                                                                                                                <span itemprop="price"
-                                                                                                                      class="price">
-                                                                                                                    $14.86
-                                                                                                                </span>
-
-
-                                                                                                                <span class="regular-price">
-                                                                                                                    $16.51
-                                                                                                                </span>
-                                                                                                                <span class="discount-percentage"
-                                                                                                                      style="top: 6px;">
-                                                                                                                    -10%
-                                                                                                                </span>
-
-
-                                                                                                            </div>
-
-                                                                                                            <div class="mm_short_description">
-                                                                                                                <p>Faded
-                                                                                                                    short
-                                                                                                                    sleeves
-                                                                                                                    t-shirt...
-                                                                                                                </p>
-                                                                                                            </div>
-                                                                                                        </div>
-
-                                                                                                        <ul class="product-flags">
-                                                                                                            <li class="discount">
-                                                                                                                Reduced
-                                                                                                                price
-                                                                                                            </li>
-                                                                                                        </ul>
-
-                                                                                                        <div class="highlighted-informations hidden-sm-down">
-                                                                                                            <a href="#"
-                                                                                                               class="quick-view"
-                                                                                                               data-link-action="quickview">
-                                                                                                                <i class="material-icons search">
-                                                                                                                    search
-                                                                                                                </i>
-                                                                                                                Quick
-                                                                                                                view
-                                                                                                            </a>
-
-                                                                                                            <div class="variant-links">
-                                                                                                                <a href=""
-                                                                                                                   class="color"
-                                                                                                                   title="Orange"
-                                                                                                                   style="background-color: #F39C11">
-                                                                                                                    <span
-                                                                                                                            class="sr-only">
-                                                                                                                        Orange
-                                                                                                                    </span>
-                                                                                                                </a>
-                                                                                                                <a href="#"
-                                                                                                                   class="color"
-                                                                                                                   title="Blue"
-                                                                                                                   style="background-color: #5D9CEC">
-                                                                                                                    <span
-                                                                                                                            class="sr-only">
-                                                                                                                        Blue
-                                                                                                                    </span>
-                                                                                                                </a>
-                                                                                                                <span class="js-count count"></span>
-                                                                                                            </div>
-
-                                                                                                        </div>
-
-                                                                                                    </div>
-                                                                                                </article>
-                                                                                                <article
-                                                                                                        class="product-miniature js-product-miniature"
-                                                                                                        data-id-product="2"
-                                                                                                        data-id-product-attribute="7"
-                                                                                                        itemscope="">
-                                                                                                    <div class="thumbnail-container">
-
-                                                                                                        <a href="#"
-                                                                                                           class="thumbnail product-thumbnail">
-                                                                                                            <img src=""
-                                                                                                                 alt=""
-                                                                                                                 data-full-size-image-url=""/>
-                                                                                                            <img class="fade replace-2x img-responsive ybc_img_hover"
-                                                                                                                    src=""
-                                                                                                                    alt="Blouse"
-                                                                                                                    itemprop="image"
-                                                                                                                    title="Blouse"/>
-                                                                                                        </a>
-
-                                                                                                        <div class="product-description">
-
-                                                                                                            <h3 class="h3 product-title"
-                                                                                                                itemprop="name">
-                                                                                                                <a
-                                                                                                                        href="">
-                                                                                                                    Blouse
-                                                                                                                </a>
-                                                                                                            </h3>
-
-
-                                                                                                            <div class="product-price-and-shipping">
-
-
-                                                                                                                <span itemprop="price"
-                                                                                                                      class="price">
-                                                                                                                    $24.29
-                                                                                                                </span>
-
-
-                                                                                                                <span class="regular-price">
-                                                                                                                    $26.99
-                                                                                                                </span>
-                                                                                                                <span class="discount-percentage"
-                                                                                                                      style="top: -7px;">
-                                                                                                                    -10%
-                                                                                                                </span>
-
-
-                                                                                                            </div>
-
-                                                                                                            <div class="mm_short_description">
-                                                                                                                <p>
-                                                                                                                    Short-sleeved
-                                                                                                                    blouse
-                                                                                                                    with...
-                                                                                                                </p>
-                                                                                                            </div>
-                                                                                                        </div>
-
-                                                                                                        <ul class="product-flags">
-                                                                                                            <li class="discount">
-                                                                                                                Reduced
-                                                                                                                price
-                                                                                                            </li>
-                                                                                                        </ul>
-
-                                                                                                        <div class="highlighted-informations hidden-sm-down">
-                                                                                                            <a href="#"
-                                                                                                               class="quick-view"
-                                                                                                               data-link-action="quickview">
-                                                                                                                <i class="material-icons search">
-                                                                                                                    search
-                                                                                                                </i>
-                                                                                                                Quick
-                                                                                                                view
-                                                                                                            </a>
-
-                                                                                                            <div class="variant-links">
-                                                                                                                <a href="#"
-                                                                                                                   class="color"
-                                                                                                                   title="White"
-                                                                                                                   style="background-color: #ffffff">
-                                                                                                                    <span
-                                                                                                                            class="sr-only">
-                                                                                                                        White
-                                                                                                                    </span>
-                                                                                                                </a>
-                                                                                                                <a href="#"
-                                                                                                                   class="color"
-                                                                                                                   title="Black"
-                                                                                                                   style="background-color: #434A54">
-                                                                                                                    <span
-                                                                                                                            class="sr-only">
-                                                                                                                        Black
-                                                                                                                    </span>
-                                                                                                                </a>
-                                                                                                                <span class="js-count count"></span>
-                                                                                                            </div>
-
-                                                                                                        </div>
-
-                                                                                                    </div>
-                                                                                                </article>
-
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                            <li class="mm_columns_li column_size_3  mm_has_sub">
-                                                                                <ul class="mm_blocks_ul">
-                                                                                    <li data-id-block="19"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_image mm_hide_title">
-                                                                                            <h4>lorem</h4>
-                                                                                            <div class="ets_mm_block_content">
-                                                                                                <img src=""
-                                                                                                     alt="lorem"/>
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                    <li data-id-block="20"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_html mm_hide_title">
-                                                                                            <h4>Lorem</h4>
-                                                                                            <div class="ets_mm_block_content">
-                                                                                                Lorem ipsum dolor sit
-                                                                                                amet,
-                                                                                                consectetur adipiscing
-                                                                                                elit, sed do
-                                                                                                eiusmod
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-
-                                                                    </li>
-                                                                    <li class="item_lv1 mm_menus_li phone mm_sub_align_full ">
-                                                                        <a href="#">
-                                                                            <i class="fa fa-mobile fa-3"
-                                                                               aria-hidden="true"></i>
-                                                                            <span class="item_content">Phones</span>
-                                                                        </a>
-
-                                                                    </li>
-                                                                     <li class="item_lv1 mm_menus_li about_contact not_show mm_sub_align_left mm_has_sub">
-                                                                        <a href="#">
-                                                                            <i class="fa fa-envelope-o"
-                                                                               aria-hidden="true"></i>
-                                                                            <span class="item_content">Contact</span>
-                                                                        </a>
-                                                                        <span class="arrow closed"></span>
-                                                                        <ul class="mm_columns_ul" style="width:13%;">
-                                                                            <li class="mm_columns_li column_size_3  mm_has_sub">
-                                                                                <ul class="mm_blocks_ul">
-                                                                                    <li data-id-block="21"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_html mm_hide_title">
-                                                                                            <h4>contact demo</h4>
-                                                                                            <div class="ets_mm_block_content">
-                                                                                                <ul>
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Contact
-                                                                                                            page 1
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                </ul>
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-
-                                                                    </li>
-                                                                   <li class="item_lv1 mm_menus_li about_contact not_show mm_sub_align_full mm_has_sub">
-                                                                        <a href="#">
-                                                                            <i class="fa fa-pencil-square-o"
-                                                                               aria-hidden="true"></i>
-                                                                            <span class="item_content">Blog</span>
-                                                                        </a>
-                                                                        <span class="arrow closed"></span>
-                                                                        <ul class="mm_columns_ul" style="width:13%;">
-                                                                            <li class="mm_columns_li column_size_2  mm_has_sub">
-                                                                                <ul class="mm_blocks_ul">
-                                                                                    <li data-id-block="22"
-                                                                                        class="mm_blocks_li">
-
-                                                                                        <div class="ets_mm_block mm_block_type_html mm_hide_title">
-                                                                                            <h4>Blog</h4>
-                                                                                            <div class="ets_mm_block_content">
-                                                                                                <ul>
-                                                                                                    <li>
-                                                                                                        <a href="#">
-                                                                                                            Main
-                                                                                                            page
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                </ul>
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-
-                                                                    </li>
+                                                                                </t>
+                                                                            </ul>
+
+                                                                        </li>
+                                                                    </t>
                                                                     <li class="item_lv1 mm_menus_li view_less_menu not_show mm_sub_align_full ">
                                                                         <a href="#">
                                                                             <span class="item_content">View less
@@ -1156,55 +231,61 @@
                                                     </div>
                                                     <script type="text/javascript">
                                                         $('.view_more_menu').off().on('click', function(ev) {
-                                                                ev.preventDefault();
-                                                                var select_add = $('.menu_cate .mm_menus_ul > li.not_show');
-                                                                if (!select_add.hasClass('active')) select_add.addClass('active');
-                                                                else select_add.removeClass('active');
-                                                                $(this).addClass('not_show');
-                                                                if (!$(this)) $(this).addClass('active');
-                                                                else $(this).removeClass('active')
-                                                            });
-                                                            $('.view_less_menu').off().on('click', function(ev) {
-                                                                ev.preventDefault();
-                                                                var select_add = $('.menu_cate .mm_menus_ul > li.not_show');
-                                                                if (!select_add.hasClass('active')) select_add.addClass('active');
-                                                                else select_add.removeClass('active');
-                                                                if (!$('.view_more_menu').hasClass('not_show')) $('.view_more_menu').addClass('not_show');
-                                                                else $('.view_more_menu').removeClass('not_show');
-                                                                $(this).addClass('not_show')
-                                                            });
-                                                            if ($(window).width() > 767) {
-                                                                $('.menu_cate .ybc-menu-button-toggle').off().on('click', function(ev) {
-                                                                    ev.preventDefault();
-                                                                    var menu_toger = $('.menu_cate .ets_mm_megamenu');
-                                                                    if (!menu_toger.hasClass('close_menu')) menu_toger.addClass('close_menu');
-                                                                    else menu_toger.removeClass('close_menu')
-                                                                })
-                                                            }
-                                                            if ($(window).width() > 1200) {
-                                                                var menu_toger = $('.menu_cate .ets_mm_megamenu');
-                                                                if (!menu_toger.hasClass('close_menu')) menu_toger.addClass('close_menu');
-                                                                else menu_toger.removeClass('close_menu')
-                                                            }
-                                                            if ($(window).width() > 767) {
-                                                                var elementClick = '.toogle_custom';
-                                                                var elementSlide = '.toogle_content_custom';
-                                                                var activeClass = 'active';
-                                                                $(elementClick).on('click', function(e) {
-                                                                    e.stopPropagation();
-                                                                    var subUl = $(this).next(elementSlide);
-                                                                    if (subUl.is(':hidden')) {
-                                                                        subUl.slideDown();
-                                                                        $(this).addClass(activeClass)
-                                                                    } else {
-                                                                        subUl.slideUp();
-                                                                        $(this).removeClass(activeClass)
-                                                                    }
-                                                                    $(elementClick).not(this).next(elementSlide).slideUp();
-                                                                    $(elementClick).not(this).removeClass(activeClass);
-                                                                    e.preventDefault()
-                                                                })
-                                                            }
+                                                        ev.preventDefault();
+                                                        var select_add = $('.menu_cate .mm_menus_ul > li.not_show');
+                                                        if (!select_add.hasClass('active'))
+                                                        select_add.addClass('active');
+                                                        else select_add.removeClass('active');
+                                                        $(this).addClass('not_show');
+                                                        if (!$(this)) $(this).addClass('active');
+                                                        else $(this).removeClass('active')
+                                                        });
+                                                        $('.view_less_menu').off().on('click', function(ev) {
+                                                        ev.preventDefault();
+                                                        var select_add = $('.menu_cate .mm_menus_ul > li.not_show');
+                                                        if (!select_add.hasClass('active'))
+                                                        select_add.addClass('active');
+                                                        else select_add.removeClass('active');
+                                                        if (!$('.view_more_menu').hasClass('not_show'))
+                                                        $('.view_more_menu').addClass('not_show');
+                                                        else $('.view_more_menu').removeClass('not_show');
+                                                        $(this).addClass('not_show')
+                                                        });
+                                                        if ($(window).width() > 767) {
+                                                        $('.menu_cate .ybc-menu-button-toggle').off().on('click',
+                                                        function(ev) {
+                                                        ev.preventDefault();
+                                                        var menu_toger = $('.menu_cate .ets_mm_megamenu');
+                                                        if (!menu_toger.hasClass('close_menu'))
+                                                        menu_toger.addClass('close_menu');
+                                                        else menu_toger.removeClass('close_menu')
+                                                        })
+                                                        }
+                                                        if ($(window).width() > 1200) {
+                                                        var menu_toger = $('.menu_cate .ets_mm_megamenu');
+                                                        if (!menu_toger.hasClass('close_menu'))
+                                                        menu_toger.addClass('close_menu');
+                                                        else menu_toger.removeClass('close_menu')
+                                                        }
+                                                        if ($(window).width() > 767) {
+                                                        var elementClick = '.toogle_custom';
+                                                        var elementSlide = '.toogle_content_custom';
+                                                        var activeClass = 'active';
+                                                        $(elementClick).on('click', function(e) {
+                                                        e.stopPropagation();
+                                                        var subUl = $(this).next(elementSlide);
+                                                        if (subUl.is(':hidden')) {
+                                                        subUl.slideDown();
+                                                        $(this).addClass(activeClass)
+                                                        } else {
+                                                        subUl.slideUp();
+                                                        $(this).removeClass(activeClass)
+                                                        }
+                                                        $(elementClick).not(this).next(elementSlide).slideUp();
+                                                        $(elementClick).not(this).removeClass(activeClass);
+                                                        e.preventDefault()
+                                                        })
+                                                        }
                                                     </script>
                                                 </div>
                                                 <!-- Block search module TOP -->
@@ -1213,13 +294,15 @@
                                                     <span class="search_icon_toogle">
                                                         <i class="material-icons-search"></i>
                                                     </span>
-                                                    <form t-att-action="action if action else '/shop'" method="get" class="o_wsale_products_searchbar_form o_wait_lazy_js #{_classes}">
+                                                    <form t-att-action="action if action else '/shop'" method="get"
+                                                          class="o_wsale_products_searchbar_form o_wait_lazy_js #{_classes}">
                                                         <input type="text" name="search"
                                                                placeholder="Tìm kiếm ..."
                                                                class="ui-autocomplete-input"
                                                                autocomplete="off"
                                                                t-att-value="search"/>
-                                                        <input name="order" type="hidden" class="o_wsale_search_order_by" value=""/>
+                                                        <input name="order" type="hidden"
+                                                               class="o_wsale_search_order_by" value=""/>
                                                         <button type="submit" class="">
                                                             <i class="fa fa-search"></i>
                                                         </button>
