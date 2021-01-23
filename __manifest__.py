@@ -30,7 +30,7 @@
     'data': [
         'security/group_user.xml',
         'security/ir.model.access.csv',
-        'browser/menu.xml',
+        # 'browser/menu.xml',
         # 'browser/home.xml',
         # 'browser/footer.xml',
         # 'views/banner_view.xml',
