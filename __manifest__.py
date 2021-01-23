@@ -28,18 +28,18 @@
 
     # always loaded
     'data': [
-        # 'security/group_user.xml',
-        # 'security/ir.model.access.csv',
-        # 'browser/menu.xml',
-        # 'browser/home.xml',
-        # 'browser/footer.xml',
-        # 'views/banner_view.xml',
-        # 'views/product_inherit.xml',
-        # 'browser/add_to_cart.xml',
-        # 'browser/product_detail.xml',
-        # "views/assets.xml",
-        # "views/templates.xml",
-        # "views/website_sale_attribute_filter_category_view.xml",
+        'security/group_user.xml',
+        'security/ir.model.access.csv',
+        'browser/menu.xml',
+        'browser/home.xml',
+        'browser/footer.xml',
+        'views/banner_view.xml',
+        'views/product_inherit.xml',
+        'browser/add_to_cart.xml',
+        'browser/product_detail.xml',
+        "views/assets.xml",
+        "views/templates.xml",
+        "views/website_sale_attribute_filter_category_view.xml",
     ],
     # only loaded in demonstration mode
     'demo': [
