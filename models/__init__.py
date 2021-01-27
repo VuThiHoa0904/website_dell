@@ -2,3 +2,4 @@
 
 from . import banner
 from . import product_inherit
+from . import res_partner

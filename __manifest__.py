@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "WebsiteDell",
+    'name': "Website Dell",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -31,15 +31,15 @@
         'security/group_user.xml',
         'security/ir.model.access.csv',
         'browser/menu.xml',
+        'browser/auth_signup_extend_views.xml',
         # 'browser/home.xml',
         # 'browser/footer.xml',
         'views/banner_view.xml',
         'views/product_inherit.xml',
         'browser/add_to_cart.xml',
         'browser/product_detail.xml',
-        # "views/assets.xml",
-        "views/templates.xml",
-        "views/website_sale_attribute_filter_category_view.xml",
+        # "views/templates.xml",
+        # "views/website_sale_attribute_filter_category_view.xml",
     ],
     # only loaded in demonstration mode
     'demo': [

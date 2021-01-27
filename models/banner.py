@@ -24,7 +24,7 @@ class website(models.Model):
             return int(product_uom_qty)
         return int(product_uom_qty)
 
-class ProductAttributeCategory(models.Model):
-    _inherit = "product.attribute.category"
-
-    website_folded = fields.Boolean(string="Website folded", default=True,)
+# class ProductAttributeCategory(models.Model):
+#     _inherit = "product.attribute.category"
+#
+#     website_folded = fields.Boolean(string="Website folded", default=True,)

@@ -264,6 +264,73 @@ class Website(Website):
             values['main_object'] = category
         return request.render("website_sale.products", values)
 
+    @http.route(['/shop/product/<model("product.template"):product>'], type='http', auth="public", website=True)
+    def product(self, product, category='', search='', **kwargs):
+        categories = http.request.env['pos.category'].sudo().search([])
+        a = []
+        for x in categories:
+            b = x.parent_id.id
+            a.append(b)
+        e = list(OrderedDict.fromkeys(a))
+        e.remove(False)
+        cates = http.request.env['pos.category'].sudo().search([('id','in',e)])
+        if not product.can_access_from_current_website():
+            raise NotFound()
+
+        return request.render("website_sale.product", self._prepare_product_values(product, category, cates, search, **kwargs))
+
+    def _prepare_product_values(self, product, category, cates, search, **kwargs):
+        add_qty = int(kwargs.get('add_qty', 1))
+
+        product_context = dict(request.env.context, quantity=add_qty,
+                               active_id=product.id,
+                               partner=request.env.user.partner_id)
+        ProductCategory = request.env['product.public.category']
+
+        if category:
+            category = ProductCategory.browse(int(category)).exists()
+
+        attrib_list = request.httprequest.args.getlist('attrib')
+        attrib_values = [[int(x) for x in v.split("-")] for v in attrib_list if v]
+        attrib_set = {v[1] for v in attrib_values}
+
+        keep = QueryURL('/shop', category=category and category.id, search=search, attrib=attrib_list)
+
+        categs = ProductCategory.search([('parent_id', '=', False)])
+
+        pricelist = request.website.get_current_pricelist()
+
+        if not product_context.get('pricelist'):
+            product_context['pricelist'] = pricelist.id
+            product = product.with_context(product_context)
+
+        # Needed to trigger the recently viewed product rpc
+        view_track = request.website.viewref("website_sale.product").track
+
+        categories = http.request.env['pos.category'].sudo().search([])
+        a = []
+        for x in categories:
+            b = x.parent_id.id
+            a.append(b)
+        e = list(OrderedDict.fromkeys(a))
+        e.remove(False)
+        cates = http.request.env['pos.category'].sudo().search([('id','in',e)])
+
+        return {
+            'search': search,
+            'category': category,
+            'pricelist': pricelist,
+            'attrib_values': attrib_values,
+            'attrib_set': attrib_set,
+            'keep': keep,
+            'categories': categs,
+            'cates': cates,
+            'main_object': product,
+            'product': product,
+            'add_qty': add_qty,
+            'view_track': view_track,
+        }
+
     @http.route('/', type='http', auth="public", website=True)
     def index(self, **kw):
         bans = http.request.env['website_dell.banner'].sudo().search([])
@@ -276,9 +343,6 @@ class Website(Website):
         e = list(OrderedDict.fromkeys(a))
         e.remove(False)
         cates = http.request.env['pos.category'].sudo().search([('id','in',e)])
-        for f in cates:
-            print("=======================")
-            print(f.child_id)
         companys = http.request.env['res.partner']
         return request.render("website.homepage",{
             'bans': bans,
@@ -313,3 +377,45 @@ class website_add_product(http.Controller):
         if request.httprequest.headers and request.httprequest.headers.get('Referer'):
             return request.redirect(str(request.httprequest.headers.get('Referer')))
         return request.redirect('/shop')
+
+    @http.route('/web/login', type='http', auth="none")
+    def web_login(self, redirect=None, **kw):
+        ensure_db()
+        request.params['login_success'] = False
+        if request.httprequest.method == 'GET' and redirect and request.session.uid:
+            return http.redirect_with_hash(redirect)
+
+        if not request.uid:
+            request.uid = odoo.SUPERUSER_ID
+
+        values = request.params.copy()
+        try:
+            values['databases'] = http.db_list()
+        except odoo.exceptions.AccessDenied:
+            values['databases'] = None
+
+        if request.httprequest.method == 'POST':
+            old_uid = request.uid
+            try:
+                uid = request.session.authenticate(request.session.db, request.params['login'], request.params['password'])
+                request.params['login_success'] = True
+                return http.redirect_with_hash(self._login_redirect(uid, redirect=redirect))
+            except odoo.exceptions.AccessDenied as e:
+                request.uid = old_uid
+                if e.args == odoo.exceptions.AccessDenied().args:
+                    values['error'] = _("Wrong login/password")
+                else:
+                    values['error'] = e.args[0]
+        else:
+            if 'error' in request.params and request.params.get('error') == 'access':
+                values['error'] = _('Only employee can access this database. Please contact the administrator.')
+
+        if 'login' not in values and request.session.get('auth_login'):
+            values['login'] = request.session.get('auth_login')
+
+        if not odoo.tools.config['list_db']:
+            values['disable_database_manager'] = True
+
+        response = request.render('web.login', values)
+        response.headers['X-Frame-Options'] = 'DENY'
+        return response

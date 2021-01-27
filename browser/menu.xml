@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-        <template id="assets_frontend" inherit_id="website.assets_frontend" name="Website Assets">
+        <template id="assets_frontend" inherit_id="website.assets_frontend" name="Website Dell">
             <xpath expr=".">
                 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
                       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
@@ -125,8 +125,8 @@
                                                        style="font-size: 40px; color: #F9B002; transform: rotate(-45deg);"></i>
                                                 </span>
                                                 <a href="tel:0123456789" style="color: #F9B002;">
-                                                    <b>Call us now</b>
-                                                    <br/>0123-456-789
+                                                    <b>Liên hệ ngay</b>
+                                                    <br/>0943-811-966
                                                 </a>
                                             </div>
 

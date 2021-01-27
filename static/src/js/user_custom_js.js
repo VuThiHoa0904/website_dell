@@ -1,6 +1,17 @@
 odoo.define('website.user_custom_code_dell', function (require) {
 'use strict';
 
+    $(document).ready(function() {
+        $(document).on('change', '#province', function () {
+            let province = "."+$('#province').val()
+            $("#district").children("option").css('display','none')
+             $(province).css('display','block');
+        });
+    });
+
+    $('.carousel').carousel({
+      interval: 2000
+    })
 //    menu bar
     $(function() {
         if ($('.ets_mm_megamenu.sticky_enabled').length > 0) {

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="auth_signup_fields_extend" inherit_id="auth_signup.fields" name="Signup Fields Extend">
+            <xpath expr="//div[hasclass('field-confirm_password')]" position="after">
+                <div class="form-group field-phone">
+                    <label for="phone" class="control-label ">Số điện thoại</label>
+                    <input type="text" name="phone" t-att-value="phone" id="phone" class="form-control "
+                           required="required" t-att-readonly="'readonly' if only_passwords else None"
+                           t-att-autofocus="'autofocus' if login and not only_passwords else None"/>
+                </div>
+                <div class="form-group field-street_name">
+                    <label for="street" class="control-label ">Địa chỉ</label>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <select name="country_id" class="form-control col-md-6" required="required"
+                                    t-att-readonly="'readonly' if only_passwords else None"
+                                    t-att-autofocus="'autofocus' if login and not only_passwords else None">
+                                <t t-foreach="countries or []" t-as="country">
+                                    <option t-att-value="country.id">
+                                        <t t-esc="country.name"/>
+                                    </option>
+                                </t>
+                            </select>
+                            <select name="state_id" class="form-control col-md-6" required="required"
+                                    t-att-readonly="'readonly' if only_passwords else None"
+                                    t-att-autofocus="'autofocus' if login and not only_passwords else None"
+                                    id="province">
+                                <option value="">Tỉnh/TP</option>
+                                <t t-foreach="states or []" t-as="state">
+                                    <option t-att-value="state.id">
+                                        <t t-esc="state.name"/>
+                                    </option>
+                                </t>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 2px;">
+                        <div class="col-md-12">
+                            <select name="city_id" class="form-control col-md-6" required="required"
+                                    t-att-readonly="'readonly' if only_passwords else None"
+                                    t-att-autofocus="'autofocus' if login and not only_passwords else None"
+                                    id="district">
+                                <option value="">Quận/Huyện</option>
+                                <t t-foreach="cities or []" t-as="city">
+                                    <option t-att-value="city.id" t-att-class="city.state_id.id" style="display: none;">
+                                        <t t-esc="city.name"/>
+                                    </option>
+                                </t>
+                            </select>
+                            <input type="text" name="street2" placeholder="Số nhà, đường ..." t-att-value="street2"
+                                   id="street2"
+                                   class="form-control col-md-6" required="required"
+                                   t-att-readonly="'readonly' if only_passwords else None"
+                                   t-att-autofocus="'autofocus' if login and not only_passwords else None"
+                                   style = "height: 100%;"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+
+        </template>
+    </data>
+</odoo>
