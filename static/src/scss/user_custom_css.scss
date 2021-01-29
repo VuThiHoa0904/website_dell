@@ -49065,3 +49065,33 @@ span[data-oe-type="monetary"]{
     margin-left: 3px;
     line-height: 40px;
 }
+.shopping_cart_dell{
+    font-size: 13px;
+    top: auto;
+}
+//blog
+.website_blog  .o_wblog_normalize_font {
+    font-size: 15px;
+    line-height: 1.45;
+    font-family: Roboto;
+    font-weight: 300;
+}
+.website_blog .o_wblog_read {
+    width: 1140px;
+}
+.highlighted-informations .quick-view, .highlighted-informations .wishlist {
+    border: medium none;
+    border-radius: 50%;
+    color: #ffffff;
+    float: right;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    width: 35px;
+    background: #15659e;
+    margin: 0 5px;
+}

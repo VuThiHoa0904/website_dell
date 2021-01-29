@@ -313,14 +313,14 @@
                                                      data-refresh-url="//ets-demos.com/theme/digital17/en/module/ps_shoppingcart/ajax">
                                                     <div class="blockcart cart-preview inactive"
                                                          data-refresh-url="//ets-demos.com/theme/digital17/en/module/ps_shoppingcart/ajax">
-                                                        <a class="show_qties" rel="nofollow"
-                                                           href="#">
-                                                            <span class="hidden-sm-down checkout_title">Shopping Cart
+                                                        <a t-attf-class="show_qties" rel="nofollow"
+                                                           href="/shop/cart">
+                                                            <span class="hidden-sm-down checkout_title">Giỏ hàng của tôi
                                                             </span>
-                                                            <span class="checkout_total">$0.00</span>
-                                                            <span class="cart-products-count">0</span>
+<!--                                                            <span class="checkout_total">$0.00</span>-->
+                                                            <span class="cart-products-count"><sup t-attf-class="my_cart_quantity badge shopping_cart_dell" t-esc="website_sale_order and website_sale_order.cart_quantity or ''"
+                                                                             t-att-data-order-id="website_sale_order and website_sale_order.id or ''"/></span>
                                                         </a>
-
                                                         <!-- begin -->
                                                         <div class="body cart-hover-content">
                                                             <ul>
