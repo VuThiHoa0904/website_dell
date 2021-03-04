@@ -9,10 +9,10 @@
                             <div class="footer_bg">
                                 <div class="row">
                                     <div class="col-md-9 col-xs-12">
-                                        <h3 class="h3 title-footer-block hidden-sm-down">Showrooms system</h3>
+                                        <h3 class="h3 title-footer-block hidden-sm-down">Hệ thống của chúng tôi</h3>
                                         <div class="title clearfix hidden-md-up" data-target="#footer_show_room"
                                              data-toggle="collapse">
-                                            <span class="h3">Showrooms system</span>
+                                            <span class="h3">Hệ thống của chúng tôi</span>
                                             <span class="pull-xs-right">
                                                 <span class="navbar-toggler collapse-icons">
                                                     <i class="material-icons add">expand_more</i>

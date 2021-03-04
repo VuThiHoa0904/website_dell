@@ -336,6 +336,7 @@ class Website(Website):
         bans = http.request.env['website_dell.banner'].sudo().search([])
         products = http.request.env['product.template'].sudo().search([])
         categories = http.request.env['pos.category'].sudo().search([])
+        posts = http.request.env['blog.post'].search([], limit=3)
         a = []
         for x in categories:
             b = x.parent_id.id
@@ -344,11 +345,19 @@ class Website(Website):
         e.remove(False)
         cates = http.request.env['pos.category'].sudo().search([('id','in',e)])
         companys = http.request.env['res.partner']
+        # print("===================")
+        a = [json.loads(b.cover_properties) for b in posts]
+        for post in posts:
+            print("=========")
+            print(json.loads(post.cover_properties).get("background-image"))
         return request.render("website.homepage",{
             'bans': bans,
             'cates': cates,
             'products': products,
-            'companys': companys.sudo().search([])
+            'companys': companys.sudo().search([]),
+            'posts': posts,
+            # 'cover_properties': [json.loads(b.cover_properties) for b in posts],
+            # 'cover_properties': a[0]
         })
     # @http.route('/', type='http', auth="public", website=True)
     # def index(self, **kw):
