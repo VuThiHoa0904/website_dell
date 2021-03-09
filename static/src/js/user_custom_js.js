@@ -76,6 +76,8 @@ odoo.define('website.user_custom_code_dell', function (require) {
        autoplay: true,
        mobileFirst:true,
        autoplaySpeed: 2000,
+       prevArrow: '#owl-prev-hot',
+       nextArrow: '#owl-next-hot',
        focusOnSelect: true,
        responsive: [
             {
@@ -112,8 +114,8 @@ odoo.define('website.user_custom_code_dell', function (require) {
             }
         ]
      });
-        $('.slick-product').slick({
-       slidesToShow: 4,
+    $('.slick-banner').slick({
+       slidesToShow: 3,
        slidesToScroll: 1,
        infinite: true,
        autoplay: true,
@@ -124,7 +126,7 @@ odoo.define('website.user_custom_code_dell', function (require) {
             {
               breakpoint: 1440,
               settings: {
-                slidesToShow: 4,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
 
@@ -133,7 +135,7 @@ odoo.define('website.user_custom_code_dell', function (require) {
             {
               breakpoint: 1024,
               settings: {
-                slidesToShow: 4,
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true,
 
@@ -142,7 +144,7 @@ odoo.define('website.user_custom_code_dell', function (require) {
             {
               breakpoint: 600,
               settings: {
-                slidesToShow: 3,
+                slidesToShow: 2,
                 slidesToScroll: 1
               }
             },
@@ -155,19 +157,69 @@ odoo.define('website.user_custom_code_dell', function (require) {
             }
         ]
      });
-        $('.slick-banner').slick({
-           slidesToShow: 3,
+    $('.slick-blog').slick({
+       slidesToShow: 3,
+       slidesToScroll: 1,
+       infinite: true,
+       autoplay: false,
+       mobileFirst:true,
+       autoplaySpeed: 2000,
+       prevArrow: '.owl-prev',
+       nextArrow: '.owl-next',
+       focusOnSelect: true,
+       responsive: [
+            {
+              breakpoint: 1440,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: false,
+
+              }
+            },
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 300,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+        ]
+
+     });
+    });
+    $(document).ready(function(){
+        $('.slick-product-0').slick({
+           slidesToShow: 4,
            slidesToScroll: 1,
            infinite: true,
            autoplay: true,
            mobileFirst:true,
            autoplaySpeed: 2000,
+           prevArrow: '#owl-prev-pro-0',
+           nextArrow: '#owl-next-pro-0',
            focusOnSelect: true,
            responsive: [
                 {
                   breakpoint: 1440,
                   settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     infinite: true,
 
@@ -176,7 +228,7 @@ odoo.define('website.user_custom_code_dell', function (require) {
                 {
                   breakpoint: 1024,
                   settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     infinite: true,
 
@@ -185,7 +237,7 @@ odoo.define('website.user_custom_code_dell', function (require) {
                 {
                   breakpoint: 600,
                   settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1
                   }
                 },
@@ -196,30 +248,34 @@ odoo.define('website.user_custom_code_dell', function (require) {
                     slidesToScroll: 1
                   }
                 }
-            ]
-         });
-        $('.slick-blog').slick({
-           slidesToShow: 3,
+           ]
+        });
+    });
+    $(document).ready(function(){
+        $('.slick-product-1').slick({
+           slidesToShow: 4,
            slidesToScroll: 1,
            infinite: true,
-           autoplay: false,
+           autoplay: true,
            mobileFirst:true,
            autoplaySpeed: 2000,
+           prevArrow: '#owl-prev-pro-1',
+           nextArrow: '#owl-next-pro-1',
            focusOnSelect: true,
            responsive: [
                 {
                   breakpoint: 1440,
                   settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
-                    infinite: false,
+                    infinite: true,
 
                   }
                 },
                 {
                   breakpoint: 1024,
                   settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     infinite: true,
 
@@ -228,7 +284,7 @@ odoo.define('website.user_custom_code_dell', function (require) {
                 {
                   breakpoint: 600,
                   settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     slidesToScroll: 1
                   }
                 },
@@ -239,19 +295,103 @@ odoo.define('website.user_custom_code_dell', function (require) {
                     slidesToScroll: 1
                   }
                 }
-            ]
-
-         });
-
-//    $(document).ready(function(){
-//        $("div").on("click", function (e){
-//        e.preventDefault();
-//        var product_id = $(this).attr("id");
-//        console.log(product_id);
-//        });
+           ]
+        });
     });
+    $(document).ready(function(){
+        $('.slick-product-2').slick({
+           slidesToShow: 4,
+           slidesToScroll: 1,
+           infinite: true,
+           autoplay: true,
+           mobileFirst:true,
+           autoplaySpeed: 2000,
+           prevArrow: '#owl-prev-pro-2',
+           nextArrow: '#owl-next-pro-2',
+           focusOnSelect: true,
+           responsive: [
+                {
+                  breakpoint: 1440,
+                  settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
 
+                  }
+                },
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
 
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                  breakpoint: 300,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+           ]
+        });
+    });
+    $(document).ready(function(){
+        $('.slick-product-3').slick({
+           slidesToShow: 4,
+           slidesToScroll: 1,
+           infinite: true,
+           autoplay: true,
+           mobileFirst:true,
+           autoplaySpeed: 2000,
+           prevArrow: '#owl-prev-pro-3',
+           nextArrow: '#owl-next-pro-3',
+           focusOnSelect: true,
+           responsive: [
+                {
+                  breakpoint: 1440,
+                  settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+
+                  }
+                },
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                  breakpoint: 300,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+           ]
+        });
+    });
 
     function dropDown() {
             elementClick = '.search_icon_toogle';
