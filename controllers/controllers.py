@@ -353,21 +353,8 @@ class Website(Website):
             'products2': products2,
             'companys': companys.sudo().search([]),
             'posts': posts,
-            # 'cover_properties': [json.loads(b.cover_properties) for b in posts],
-            # 'cover_properties': a[0]
+            'product_sale': products[0],
         })
-    # @http.route('/', type='http', auth="public", website=True)
-    # def index(self, **kw):
-    #     super(Website, self).index(**kw)
-    #     bans = http.request.env['website_dell.banner'].sudo().search([])
-    #     print("============================")
-    #     print(bans)
-    #     values = {
-    #         'bans': bans,
-    #     }
-    #     return http.request.render('website.homepage',{
-    #         'bans': bans,
-    #     })
 
 class website_add_product(http.Controller):
 

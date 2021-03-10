@@ -516,24 +516,24 @@
                                                                         </span>
                                                                     </p>
                                                                 </div>
-<!--                                                                <div class="product_special_img">-->
-<!--                                                                    <a t-att-href="products[0].website_url"-->
-<!--                                                                       class="thumbnail product-thumbnail">-->
-<!--                                                                        <img t-attf-src="data:image/*;base64,{{products[0].image_1920}}"-->
-<!--                                                                             alt=""-->
-<!--                                                                             data-full-size-image-url=""/>-->
-<!--                                                                        <img class="fade replace-2x img-responsive ybc_img_hover"-->
-<!--                                                                             t-attf-src="data:image/*;base64,{{products[0].image_1920}}"-->
-<!--                                                                             alt="Faded Short Sleeves T-shirt"-->
-<!--                                                                             itemprop="image"-->
-<!--                                                                             title="Faded Short Sleeves T-shirt"/>-->
-<!--                                                                    </a>-->
-<!--                                                                </div>-->
-<!--                                                                <h4 class="h4 product-title" itemprop="name">-->
-<!--                                                                    <a t-att-href="products[0].website_url">-->
-<!--                                                                        <t t-esc="products[0].name"/>-->
-<!--                                                                    </a>-->
-<!--                                                                </h4>-->
+                                                                <div class="product_special_img">
+                                                                    <a t-att-href="product_sale.website_url"
+                                                                       class="thumbnail product-thumbnail">
+                                                                        <img t-attf-src="data:image/*;base64,{{product_sale.image_1920}}"
+                                                                             alt=""
+                                                                             data-full-size-image-url=""/>
+                                                                        <img class="fade replace-2x img-responsive ybc_img_hover"
+                                                                             t-attf-src="data:image/*;base64,{{product_sale.image_1920}}"
+                                                                             alt="Faded Short Sleeves T-shirt"
+                                                                             itemprop="image"
+                                                                             title="Faded Short Sleeves T-shirt"/>
+                                                                    </a>
+                                                                </div>
+                                                                <h4 class="h4 product-title" itemprop="name">
+                                                                    <a t-att-href="product_sale.website_url">
+                                                                        <t t-field="product_sale.name"/>
+                                                                    </a>
+                                                                </h4>
                                                                 <div id="ets_clock_1" data-id-product="1"
                                                                      data-date-to="2025-09-06 00:00:00"
                                                                      class="ets_clock active">
