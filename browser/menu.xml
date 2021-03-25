@@ -12,7 +12,7 @@
                 <link rel="stylesheet" type="text/scss" href="/website_dell/static/src/scss/slick-theme.css"/>
                 <link rel="stylesheet" type="text/scss" href="/website_dell/static/src/scss/font-awesome.min.css"/>
                 <link rel="stylesheet" type="text/scss" href="/website_dell/static/src/scss/fontawsom-all.min.css"/>
-                <script type="text/javascript" src="/website_dell/static/src/js/user_custom_js.js"/>
+<!--                <script type="text/javascript" src="/website_dell/static/src/js/user_custom_js.js"/>-->
                 <script type="text/javascript" src="/website_dell/static/src/js/slick.min.js"/>
 <!--                <script type="text/javascript" src="/website_dell/static/src/js/bottom-1ad600.js"/>-->
                 <script src="/website_dell/static/src/js/sdk.js" async="" crossorigin="anonymous"></script>
